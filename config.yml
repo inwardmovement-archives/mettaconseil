@@ -1,0 +1,40 @@
+baseURL: "https://inwardmovement.github.io/mettaconseilpro"
+defaultContentLanguage: "fr"
+languageCode: "fr"
+title: "Metta Conseil"
+canonifyURLs: true
+disableLiveReload: true
+metaDataFormat: yaml
+rssLimit: 10
+enableRobotsTXT: true
+params:
+  description: "Conseil en développement personnel"
+  author: "Victor Massé"
+author:
+  name: "Victor Massé"
+taxonomies:
+  category: categories
+blackfriday:
+  angledQuotes: true
+  extensions:
+    - hardLineBreak
+    - noEmptyLineBeforeBlock
+footnoteReturnLinkContents: "↑"
+menu:
+  mainleft:
+    - Name: "Accueil"
+      URL: "/"
+      Identifier: "accueil"
+      weight: 1
+    - Name: "À propos"
+      URL: "/a-propos/"
+      Identifier: "a-propos"
+      weight: 2
+    # - Name: "Témoignages"
+    #   URL: "/temoignages/"
+    #   Identifier: "temoignages"
+    #   weight: 3
+    - Name: "Articles"
+      URL: "/articles/"
+      Identifier: "articles"
+      weight: 4
