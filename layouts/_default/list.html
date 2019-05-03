@@ -1,7 +1,7 @@
 {{ define "main" }}
   <main class="container">
     <article>
-      <h1>{{ .Title }}</h1><br>
+      <h1 class="text-center">{{ .Title }}</h1><br>
         <ul>
           {{ range .Data.Pages -}}
             <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>

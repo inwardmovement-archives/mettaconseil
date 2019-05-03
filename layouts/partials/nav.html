@@ -15,7 +15,7 @@
           {{- $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq .Identifier $.Section) -}}
             <a class="nav-item nav-link{{ if $isCurrent }} active{{ end }}" href="{{ .URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
         {{ end -}}
-        <a class="btn btn-primary" href="{{ "/prendre-rdv/" | relURL }}" role="button">Prendre rendez-vous</a>
+        <button type="button" class="btn btn-primary" onclick="if(jQuery.browser.mobile){window.open('mailto:contact@mettaconseil.fr','_self')}else{window.open('mailto:contact@mettaconseil.fr')}">Contact <i class="material-icons">mail_outline</i></button>
       </div>
     </div>
   </div>

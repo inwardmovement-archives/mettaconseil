@@ -1,16 +1,35 @@
 ---
-title: Conseil en développement personnel
+title: Conseil en organisation et SI
 ---
 
-Sous cette appellation généraliste, mon métier consiste plus spécifiquement à analyser et conseiller dans les domaines de la compréhension de soi et des relations interpersonnelles.
+# Présentation
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Vous :
-- vous posez question sur un comportement,
-- ne savez pas comment réagir,
-- ne parvenez pas à vous faire respecter,
-- avez du mal à vous faire comprendre,
-- n’êtes pas vous-même de peur de perdre l’autre.
+# Organisation et système d'information
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Je vous accompagne pour débloquer une situation en vous partageant mes analyses, conseils, pistes de réflexion et nouvelles perspectives pour éclairer votre problématique.
+### Détails
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Je vous aide à faire des liens qui ne sont pas a priori évidents, à comprendre les causes d'un comportement, tout en étant vigilant à adopter l'esprit critique et la démarche rationnelle qui me sont chers. Je ferai des analyses pertinentes et n'hésiterai pas à vous partager mon point de vue sur la situation, point de vue souvent atypique.
+# Gestion informatique
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

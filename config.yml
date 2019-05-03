@@ -8,7 +8,7 @@ metaDataFormat: yaml
 rssLimit: 10
 enableRobotsTXT: true
 params:
-  description: "Conseil en développement personnel"
+  description: "Conseil en organisation et système d'information"
   author: "Victor Massé"
 author:
   name: "Victor Massé"
@@ -26,15 +26,7 @@ menu:
       URL: "/"
       Identifier: "accueil"
       weight: 1
-    - Name: "À propos"
-      URL: "/a-propos/"
-      Identifier: "a-propos"
+    - Name: "Tarifs"
+      URL: "/tarifs/"
+      Identifier: "tarifs"
       weight: 2
-    # - Name: "Témoignages"
-    #   URL: "/temoignages/"
-    #   Identifier: "temoignages"
-    #   weight: 3
-    - Name: "Articles"
-      URL: "/articles/"
-      Identifier: "articles"
-      weight: 4

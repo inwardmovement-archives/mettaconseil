@@ -405,7 +405,7 @@ main.container h1:first-child {
   text-align: center;
 }
 
-main.container h2 {
+/*main.container h2 {
   font-size: 1.06rem;
   font-weight: 600;
 }
@@ -413,7 +413,7 @@ main.container h2 {
 main.container h3 {
   font-size: 1.06rem;
   font-style: italic;
-}
+}*/
 
 /*:target {
   animation: highlight 2s ease;
