@@ -18,7 +18,7 @@
   "homepage": "https://github.com/inwardmovement/mettaconseil",
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp": "^4.0.1",
+    "gulp": "^3.9.1",
     "gulp-html-prettify": "0.0.1",
     "gulp-remove-empty-lines": "^0.1.0",
     "gulp-replace": "^0.6.1"
