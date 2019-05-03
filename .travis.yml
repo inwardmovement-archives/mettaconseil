@@ -8,6 +8,7 @@ install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.55.5/hugo_0.55.5_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
   - npm install
+  - npm i graceful-fs
 before_script:
   - npm install -g gulp-cli
 script: gulp
