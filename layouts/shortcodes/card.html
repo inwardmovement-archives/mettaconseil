@@ -1,0 +1,12 @@
+<div class="card text-center">
+  {{ with .Get "logo" }}
+    <img src="{{ print "/img/clients/" . }}" class="card-img-top img-fluid rounded mx-auto" alt="logo" style="width: 50%; padding-top: 20px;">
+  {{ end }}
+  <div class="card-body">
+    {{ with .Get "nom" }}<h3 class="card-title">{{ . }}</h3>{{ end }}
+    {{ with .Get "description" }}<p class="card-text">{{ . }}</p>{{ end }}
+  </div>
+  <div class="card-footer">
+    {{ with .Get "lien" }}<a href="{{ . }}" class="btn btn-info" target="_blank">Site web <i class="material-icons">launch</i></a>{{ end }}
+  </div>
+</div>

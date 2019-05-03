@@ -26,7 +26,11 @@ menu:
       URL: "/"
       Identifier: "accueil"
       weight: 1
+    - Name: "Clients"
+      URL: "/clients/"
+      Identifier: "clients"
+      weight: 2
     - Name: "Tarifs"
       URL: "/tarifs/"
       Identifier: "tarifs"
-      weight: 2
+      weight: 3

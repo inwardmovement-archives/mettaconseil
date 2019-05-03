@@ -1,0 +1,17 @@
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        {{ with .Get "nom" }}<td>{{ . }}</td>{{ end }}
+        {{ with .Get "prix" }}<td class="text-right"><span class="badge badge-success">{{ . }}</span></td>{{ end }}
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        {{ with .Get "nom" }}<td>{{ . }}{{ end }}
+          <p><small class="text-muted">pour les organisations alliées d'<a href="https://algosphere.org/fr/" target="_blank">Algosphère <i class="material-icons">launch</i></a></small></p></td>
+        {{ with .Get "prix-algo" }}<td class="text-right"><span class="badge badge-success">{{ . }}</span></td>{{ end }}
+      </tr>
+    </tbody>
+  </table>
+</div>

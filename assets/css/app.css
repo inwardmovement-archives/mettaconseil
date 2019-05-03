@@ -108,6 +108,20 @@ dd {
   width: 100% !important;
 }
 
+.card-deck {
+  margin-bottom: 30px;
+}
+
+.card-deck + .card-deck {
+  margin-top: -30px;
+}
+
+@media (min-width: 768px) {
+  .card-deck + .card-deck {
+      margin-top: initial;
+    }
+}
+
 /************************************************************
   CONTAINER
 ************************************************************/
@@ -365,23 +379,23 @@ ul + h1, ul + h2, ul + h3, ul + h4, ul + h5, ul + h6 {
   margin-top: 2.5rem;
 }
 
-article h1 {
+main.container h1 {
   font-size: 2rem;
 }
 
-article h2 {
+main.container h2 {
   font-size: 1.75rem;
 }
 
-article h3 {
+main.container h3 {
   font-size: 1.5rem;
 }
 
-article h4 {
+main.container h4 {
   font-size: 1.25rem;
 }
 
-article h5 {
+main.container h5 {
   font-size: 1rem;
 }
 
