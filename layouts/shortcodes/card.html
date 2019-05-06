@@ -1,12 +1,15 @@
 <div class="card text-center">
+  {{ $logo := .Get "logo" }}
+  {{ $b64 := (resources.Get (print "/img/clients/" $logo)).Content | base64Encode }}
   {{ with .Get "logo" }}
-    <img src="{{ print "/img/clients/" . }}" class="card-img-top img-fluid rounded mx-auto" alt="logo {{ strings.TrimRight ".png" (strings.TrimRight ".jpg" . )}}" style="width: 50%; padding-top: 20px;">
+    {{ $ext := strings.TrimLeft (strings.TrimRight ".png" (strings.TrimRight ".jpg" . )) . }}
+        <img src="data:image/{{ if eq $ext ".jpg" }}jpeg{{ else if eq $ext ".png" }}png{{ end}};base64,{{ $b64 }}" class="card-img-top img-fluid rounded mx-auto" alt="logo {{ strings.TrimRight ".png" (strings.TrimRight ".jpg" . )}}" style="width: 50%; padding-top: 20px;">
   {{ end }}
   <div class="card-body">
-    {{ with .Get "nom" }}<h3 class="card-title">{{ . }}</h3>{{ end }}
-    {{ with .Get "description" }}<p class="card-text">{{ . }}</p>{{ end }}
+    <h3 class="card-title">{{ .Get "nom" }}</h3>
+    <p class="card-text">{{ .Get "description" }}</p>
   </div>
   <div class="card-footer">
-    {{ with .Get "lien" }}<a href="{{ . }}" class="btn btn-info" target="_blank">Site web <i class="material-icons">launch</i></a>{{ end }}
+    <a href="{{ .Get "lien" }}" class="btn btn-info" target="_blank">Site web <i class="material-icons">launch</i></a>
   </div>
 </div>
