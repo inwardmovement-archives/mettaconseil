@@ -3,7 +3,9 @@
     <article>
       <h1 class="text-center">{{ .Title }}</h1>
       <h5 class="text-center text-muted">{{ .Params.subtitle }}</h5><br>
+      {{ if .Params.toc }}{{ .Page.TableOfContents }}<br><br>{{ end }}
         {{ .Content -}}
     </article>
   </main>
+  {{ partial "top-btn" . }}
 {{ end }}

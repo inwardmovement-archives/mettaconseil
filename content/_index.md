@@ -4,26 +4,31 @@ subtitle: pour les organisations progressistes
 ---
 
 # Présentation
-Quoi ?
-Pourquoi ?
+quoi
+pourquoi
+spécificité metta conseil : faire beaucoup avec peu
 
-Milieux profressistes/militant/activistes : besoin d'une org ultra efficace car moyens limités
+milieux progressistes/militant/activistes : besoin d'une org ultra efficace car moyens limités
 
 # Organisation et système d'information
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+C'est le cœur de l'offre Metta Conseil.
 
-#### Détails
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+présentation
+
+- durée estimée : 1 semaine / 35h
+- nécessité dispo/présence client : diag + cdc + (mep) + acc
+- catégorie de tarification : "conseil org/si"
+
+#### Phase A : diagnostic de l'existant + résultat du diag
+notation efficacité + cout pour chaque tâche
+résultat > pistes d'amélioration
+
+#### Phase B : Cahier des charges + devis
+module X, Y, Z
+
+#### Phase C : mise en place de l'org/si et accompagnement prise en main
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
 
 # Gestion informatique
 opérer org/si mis en place par Metta Conseil
+- catégorie de tarification : "gestion info"

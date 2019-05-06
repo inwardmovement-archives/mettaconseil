@@ -26,11 +26,19 @@ menu:
       URL: "/"
       Identifier: "accueil"
       weight: 1
+    - Name: "Modules"
+      URL: "/modules/"
+      Identifier: "modules"
+      weight: 2
     - Name: "Clients"
       URL: "/clients/"
       Identifier: "clients"
-      weight: 2
+      weight: 3
     - Name: "Tarifs"
       URL: "/tarifs/"
       Identifier: "tarifs"
-      weight: 3
+      weight: 4
+    - Name: "À propos"
+      URL: "/a-propos/"
+      Identifier: "a-propos"
+      weight: 5

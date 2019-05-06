@@ -10,6 +10,9 @@ Victor Massé
 38290 La Verpillière
 contact@mettaconseil.fr
 06.69.05.29.65
+`SIREN 850426776`
+`SIRET 85042677600017`
+`APE 9609Z`
 
 ## Hébergeur
 GitHub, Inc.
