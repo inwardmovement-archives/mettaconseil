@@ -1,9 +1,14 @@
 ---
 title: À propos
+center: true
 ---
 
-# Mission
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
+{{< lead >}}
+  Notre mission est d'aider les organisations progressistes à accomplir la leur, en les aidant à s'organiser efficacement et à moindre cout.
+{{< /lead >}}
 
-# Vision
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
+---
+
+Nous partageons la <a href="https://algosphere.org/fr/?page_id=929" target="_blank">vision <i class="material-icons">launch</i></a> de l'Alliance Algosphère dont nous faisons partie.
+
+Notre valeur-racine et priorité éthique est l'allègement de la souffrance.

@@ -1,33 +1,41 @@
 ---
-title: Conseil en organisation et SI
-subtitle: pour les organisations progressistes
+title: Les prestations
+header: true
+toc: true
 ---
 
-# Présentation
+# Organisation et système d'information
+- durée indicative : 1 semaine / 35h
+- catégorie de tarification : "conseil org/si"
+
+nécessité dispo/présence client : diag + cdc + (mep) + acc
+
+Les organisations progressistes (œuvrant pour le progrès social en allégeant des souffrances) sont souvent des milieux militants/activistes avec des ressources limitées : le bénévolat y est souvent la norme.
+
+(présentation)
+
 quoi
 pourquoi
-spécificité metta conseil : faire beaucoup avec peu
+spécificité metta conseil :
+- faire beaucoup avec peu (efficacité/ressources)
+- cout de fonctionnement = quasi gratuit
+- choix : externalisation des processus de fonctionnement ou autonomie
 
 milieux progressistes/militant/activistes : besoin d'une org ultra efficace car moyens limités
 
-# Organisation et système d'information
-C'est le cœur de l'offre Metta Conseil.
-
-présentation
-
-- durée estimée : 1 semaine / 35h
-- nécessité dispo/présence client : diag + cdc + (mep) + acc
-- catégorie de tarification : "conseil org/si"
+Chaque phase est subordonnée à la réalisation de la précédente.
 
 #### Phase A : diagnostic de l'existant + résultat du diag
+- durée indicative :
 notation efficacité + cout pour chaque tâche
 résultat > pistes d'amélioration
 
 #### Phase B : Cahier des charges + devis
+- durée indicative :
 module X, Y, Z
 
 #### Phase C : mise en place de l'org/si et accompagnement prise en main
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
+- durée indicative :
 
 # Gestion informatique
 opérer org/si mis en place par Metta Conseil

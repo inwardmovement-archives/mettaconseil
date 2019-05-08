@@ -10,6 +10,8 @@ enableRobotsTXT: true
 params:
   description: "Conseil en organisation et système d'information"
   author: "Victor Massé"
+  header: "Conseil en organisation et SI"
+  subheader: "pour les organisations progressistes"
 author:
   name: "Victor Massé"
 taxonomies:
@@ -22,9 +24,9 @@ blackfriday:
 footnoteReturnLinkContents: "↑"
 menu:
   mainleft:
-    - Name: "Accueil"
+    - Name: "Prestations"
       URL: "/"
-      Identifier: "accueil"
+      Identifier: "prestations"
       weight: 1
     - Name: "Modules"
       URL: "/modules/"
