@@ -12,3 +12,5 @@ center: true
 Nous partageons la <a href="https://algosphere.org/fr/?page_id=929" target="_blank">vision <i class="material-icons">launch</i></a> de l'Alliance Algosphère dont nous faisons partie.
 
 Notre valeur-racine et priorité éthique est l'allègement de la souffrance.
+
+*Mettā* signifie "bienveillance" en pāli.
