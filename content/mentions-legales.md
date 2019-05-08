@@ -4,7 +4,7 @@ toc: true
 ---
 
 # Mentions générales
-#### Entrepreneur, directeur de publication
+## Entrepreneur, directeur de publication
 Victor Massé
 735 avenue du général de Gaulle
 38290 La Verpillière
@@ -14,7 +14,7 @@ contact@mettaconseil.fr
 `SIRET 85042677600017`
 `APE 9609Z`
 
-#### Hébergeur
+## Hébergeur
 GitHub, Inc.
 88 Colin P Kelly Jr St
 San Francisco, CA 94107
@@ -22,21 +22,21 @@ United States
 +1 (877) 448-4820
 
 # Conditions Générales de Vente
-#### Prix et paiement
+## Prix et paiement
 - Prix d'une prestation de `60 minutes` de conseil en organisation et système d'information : `80,00 € HT` (*TVA non applicable, art. 293 B du CGI*).
 
 - Prix d'une prestation de `60 minutes` de gestion informatique : `50,00 € HT` (*TVA non applicable, art. 293 B du CGI*).
 
 Une fois la prestation réalisée, le client reçoit la facture à régler par virement bancaire dans les 30 jours.
 
-#### Tarif préférentiel
+## Tarif préférentiel
 Une réduction de `50 %` est appliquée sur le montant global de la facture, quelle que soit la prestation réalisée, pour les organisations alliées d'<a href="https://algosphere.org/fr/" target="_blank">Algosphère <i class="material-icons">launch</i></a>.
 
 # Données personnelles
-#### Point de contact
+## Point de contact
 Voir *Mentions générales* > *Entrepreneur, directeur de publication*.
 
-#### Données récoltées
+## Données récoltées
 Les données récoltées sont les mails et coordonnées associées, en vue de la prise de contact, des échanges nécessaires à la bonne réalisation de la prestation et du suivi du paiement.
 
 Cette récolte est obligatoire, elle constitue le minimum de données permettant l'exécution de la prestation.

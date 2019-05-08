@@ -1,42 +1,39 @@
 ---
 title: Les prestations
 header: true
-toc: true
+toc: false
 ---
 
 # Organisation et système d'information
-- durée indicative : 1 semaine / 35h
-- catégorie de tarification : "conseil org/si"
+{{< prestation objectif="mettre en place un ensemble \"organisation + système d'information\" clé-en-main." durée="1 semaine." >}}
 
-nécessité dispo/présence client : diag + cdc + (mep) + acc
+Les organisations progressistes (œuvrant pour le progrès social en allégeant des souffrances) sont en général des milieux militants/activistes avec des ressources limitées, le bénévolat y est souvent la norme. Nous offrons un système qui permet de faire beaucoup avec peu : l'organisation est très efficace, simple à opérer, et nécessite peu de ressources que ce soit en argent ou en temps.
 
-Les organisations progressistes (œuvrant pour le progrès social en allégeant des souffrances) sont souvent des milieux militants/activistes avec des ressources limitées : le bénévolat y est souvent la norme.
+**Particularités** :
+- cout de fonctionnement quasi nul
+- entrelacement/favorise les synergies entre organisations
+- allégeur de souffrance
+- ...
 
-(présentation)
-
-quoi
-pourquoi
-spécificité metta conseil :
-- faire beaucoup avec peu (efficacité/ressources)
-- cout de fonctionnement = quasi gratuit
-- choix : externalisation des processus de fonctionnement ou autonomie
-
-milieux progressistes/militant/activistes : besoin d'une org ultra efficace car moyens limités
-
-Chaque phase est subordonnée à la réalisation de la précédente.
-
-#### Phase A : diagnostic de l'existant + résultat du diag
+## Phase A : diagnostic de l'existant
 - durée indicative :
 notation efficacité + cout pour chaque tâche
-résultat > pistes d'amélioration
++ résultat du diag > pistes d'amélioration
+nécessité dispo/présence client : diag + résultat
 
-#### Phase B : Cahier des charges + devis
+## Phase B : cahier des charges
 - durée indicative :
 module X, Y, Z
++ devis
+nécessité dispo/présence client : élaboration du cdc
 
-#### Phase C : mise en place de l'org/si et accompagnement prise en main
+## Phase C : mise en place
 - durée indicative :
+mise en place de l'org/si
+accompagnement prise en main
+nécessité dispo/présence client : mep (facultatif) + acc
 
 # Gestion informatique
-opérer org/si mis en place par Metta Conseil
-- catégorie de tarification : "gestion info"
+{{< prestation objectif="opérer l'organisation mise en place par Metta Conseil." durée="dépendante des tâches confiées." >}}
+
+choix externalisation webteam

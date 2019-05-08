@@ -1,17 +1,6 @@
-<div class="table-responsive">
-  <table class="table">
-    <thead>
-      <tr>
-        <td>{{ .Get "nom" }}</td>
-        <td class="text-right"><span class="badge badge-success">{{ .Get "prix" }} € / h</span></td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>{{ .Get "nom" }}
-          <p><small class="text-muted">pour les organisations alliées d'<a href="https://algosphere.org/fr/" target="_blank">Algosphère <i class="material-icons">launch</i></a></small></p></td>
-        <td class="text-right"><span class="badge badge-success">{{ .Get "prix-algo" }} € / h</span></td>
-      </tr>
-    </tbody>
-  </table>
+<div class="card bg-light mb-4 mt-4">
+  <div class="card-body">
+    {{ with .Get "objectif" }}<p><strong>Objectif</strong> : {{ . }}</p>{{ end }}
+    {{ with .Get "durée" }}<p><strong>Durée indicative</strong> : {{ . }}</p>{{ end }}
+  </div>
 </div>

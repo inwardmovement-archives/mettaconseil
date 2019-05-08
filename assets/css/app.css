@@ -122,6 +122,10 @@ dd {
     }
 }
 
+.card p:last-of-type {
+  margin-bottom: 0;
+}
+
 /************************************************************
   CONTAINER
 ************************************************************/
@@ -384,7 +388,7 @@ main.container h1 {
 }
 
 main.container h2 {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 main.container h3 {
@@ -419,15 +423,14 @@ main.container h1:first-child {
   text-align: center;
 }
 
-/*main.container h2 {
-  font-size: 1.06rem;
-  font-weight: 600;
+.home h1 {
+  text-align: center;
+  font-variant: small-caps;
 }
 
-main.container h3 {
-  font-size: 1.06rem;
-  font-style: italic;
-}*/
+.home h1:first-child {
+  font-variant: initial;
+}
 
 /*:target {
   animation: highlight 2s ease;
