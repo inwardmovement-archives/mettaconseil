@@ -1,6 +1,6 @@
 {{ define "main" }}
   <main class="container">
-    <h1 class="text-center">{{ .Title }}</h1><br>
+    <h1 class="text-center mb-4">{{ .Title }}</h1><br>
     {{ if .Params.toc }}{{ .Page.TableOfContents }}<br><br>{{ end }}
     {{ .Content -}}
   </main>

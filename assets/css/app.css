@@ -423,12 +423,12 @@ main.container h1:first-child {
   text-align: center;
 }
 
-.home h1 {
+.prestations h1 {
   text-align: center;
   font-variant: small-caps;
 }
 
-.home h1:first-child {
+.prestations h1:first-child {
   font-variant: initial;
 }
 
@@ -490,11 +490,6 @@ article {
   margin-left: auto;
 }
 
-article.home {
-  text-align: center;
-  max-width: none;
-}
-
 .grid-poems article  {
     margin: 0;
   }
@@ -514,10 +509,6 @@ article p {
 @media (min-width: 768px) {
   .grid-poems article  {
     margin-left: 100px;
-  }
-
-  article.home {
-    padding-top: 100px;
   }
 }
 

@@ -1,6 +1,5 @@
 ---
-title: Les modules
-header: true
+title: Modules
 toc: true
 ---
 

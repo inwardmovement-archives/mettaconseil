@@ -1,18 +1,11 @@
 {{ define "main" }}
   <main class="container home">
-    <article{{ if eq .Params.center true }} class="text-center"{{ end }}>
-    {{ if eq .Params.header true }}
-      <h1 class="text-center">{{ .Site.Params.header }}</h1>
-      <h5 class="text-center text-muted">{{ .Site.Params.subheader }}</h5><br>
-      <hr>
-      <p class="lead text-center">{{ .Title }}</p>
-      <hr><br>
-    {{ else }}
-      <h1 class="text-center">{{ .Title }}</h1><br>
-    {{ end }}
-      {{ if .Params.toc }}{{ .Page.TableOfContents }}<br><br>{{ end }}
-      {{ .Content -}}
-    </article>
+    <header class="mb-4">
+      <h1 class="text-center">Conseil en organisation et SI</h1>
+      <h5 class="text-center text-muted">pour les organisations progressistes</h5><br>
+    </header>
+    {{ if .Params.toc }}{{ .Page.TableOfContents }}<br><br>{{ end }}
+    {{ .Content -}}
   </main>
   {{ partial "top-btn" . }}
 {{ end }}
