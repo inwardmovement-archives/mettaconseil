@@ -10,4 +10,4 @@ toc: true
 
 
 # Module personnalisé
-
+(tarif Conseil en organisation et système d'information s'applique)

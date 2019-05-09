@@ -4,7 +4,6 @@
       <h1 class="text-center">Conseil en organisation et SI</h1>
       <h5 class="text-center text-muted">pour les organisations progressistes</h5><br>
     </header>
-    {{ if .Params.toc }}{{ .Page.TableOfContents }}<br><br>{{ end }}
     {{ .Content -}}
   </main>
   {{ partial "top-btn" . }}

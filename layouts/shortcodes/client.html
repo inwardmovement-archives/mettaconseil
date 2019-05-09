@@ -7,7 +7,7 @@
   {{ end }}
   <div class="card-body">
     <h3 class="card-title">{{ .Get "nom" }}</h3>
-    <p class="card-text">{{ .Get "description" }}</p>
+    <p class="card-text">{{ .Get "description" | markdownify }}</p>
   </div>
   <div class="card-footer">
     <a href="{{ .Get "lien" }}" class="btn btn-info" target="_blank">Site web <i class="material-icons">launch</i></a>

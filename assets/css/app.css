@@ -155,56 +155,23 @@ main.container {
 /************************************************************
   GRID
 ************************************************************/
-/* IE fix > */
-.sidebar {
-  float: left;
-}
-
- .grid-poems article {
-  float: right;
-}
-
-@media (min-width: 768px) {
-  .sidebar {
-    float: left;
-  }
-
-   .grid-poems article {
-    float: left;
-  }
-}
-
-@supports not (display: grid) {
-  .sidebar, .grid-poems article {
-    margin-bottom: 100px;
-  }
-}
-/* < IE fix */
-
 @supports (display: grid) {
-  .grid-poems {
+  .grid-prestations {
     display: grid;
-    grid-template:
-      "content"
-      "sidebar";
-  }
-
-  .grid-apps {
-    display: grid;
-    grid-gap: 3rem;
     grid-template-rows: repeat(auto-fill, auto);
   }
 }
 
 @media (min-width: 768px) {
   @supports (display: grid) {
-    .grid-poems {
-      grid-template: "sidebar content" / 300px 1fr;
+    .grid-prestations {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 5rem;
     }
 
-    .grid-apps {
-      grid-template-columns: repeat(auto-fill, 300px);
-      max-width: 1140px;
+    .grid-prestations article {
+      grid-area: auto;
     }
   }
 }
@@ -325,55 +292,6 @@ main.container {
 }
 
 /************************************************************
-  SIDEBAR
-************************************************************/
-.sidebar {
-  grid-area: sidebar;
-  margin-top: 5px;
-}
-
-.sidebar .pagination {
-  justify-content: center;
-}
-
-.pagination {
-  margin-top: 10px;
-}
-
-@media (min-width: 768px) {
-    .pagination {
-      margin-top: 0;
-    }
-  }
-
-.sidebar nav  {
-  display: grid;
-}
-
-.sidebar nav.card {
-  min-width: 210px;
-  margin-bottom: 40px;
-  margin-top: 20px;
-}
-
-.sidebar nav.card ul {
-  margin-bottom: 0px;
-  padding-left: 10px;
-}
-
-.sidebar nav .card-header {
-  border-bottom: none;
-}
-
-nav.card .card-header ul {
-  list-style-type: none;
-}
-
-.sidebar .current {
-	border-bottom: 1px dotted;
-}
-
-/************************************************************
   HEADINGS
 ************************************************************/
 p + h1, p + h2, p + h3, p + h4, p + h5, p + h6 {
@@ -406,14 +324,6 @@ main.container h4 {
 
 main.container h5 {
   font-size: 1rem;
-}
-
-.grid-poems h1 {
-  margin-bottom: 1rem;
-}
-
-.grid-poems h1.ds {
-  margin-bottom: .5rem;
 }
 
 main.container h1 {
@@ -495,10 +405,6 @@ article {
   margin-left: auto;
 }
 
-.grid-poems article  {
-    margin: 0;
-  }
-
 article p {
   margin-bottom: 1.25rem;
 }
@@ -508,12 +414,6 @@ article p {
     padding-right: 15px;
     padding-left: 15px;
     max-width: 600px;
-  }
-}
-
-@media (min-width: 768px) {
-  .grid-poems article  {
-    margin-left: 100px;
   }
 }
 
@@ -529,11 +429,6 @@ blockquote {
   margin-bottom: 2rem !important;
   border-left: 5px solid #eceeef;
   color: #6c757d;
-}
-.grid-poems blockquote {
-  font-style: italic;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem !important;
 }
 
 .blockquote, .blockquote-footer {
