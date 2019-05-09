@@ -3,10 +3,7 @@ title: Prestations
 layout: prestations
 ---
 
----
-# Organisation et système d'information
-{{< prestation objectif="mettre en place un ensemble \"organisation + système d'information\" clé-en-main." durée="1 semaine." >}}
-
+{{< prestation nom="Organisation et SI" objectif="mettre en place un ensemble \"organisation + système d'information\" clé-en-main." durée="1 semaine." >}}
   Les organisations progressistes (œuvrant pour le progrès social en allégeant des souffrances) sont en général des milieux militants/activistes avec des ressources limitées, le bénévolat y est souvent la norme. Nous offrons un système qui permet de faire beaucoup avec peu : l'organisation est très efficace, simple à opérer, et nécessite peu de ressources que ce soit en argent ou en temps.
 
   **Particularités** :
@@ -32,13 +29,8 @@ layout: prestations
   mise en place de l'org/si
   accompagnement prise en main
   nécessité dispo/présence client : mep (facultatif) + acc
-
 {{< /prestation >}}
 
-<br>
-
----
-# Gestion informatique
-{{< prestation objectif="opérer l'organisation mise en place par Metta Conseil." durée="dépendante des tâches confiées." >}}
-
-choix externalisation webteam
+{{< prestation nom="Gestion informatique" objectif="opérer l'organisation mise en place par Metta Conseil." durée="dépendante des tâches confiées." >}}
+  choix externalisation webteam
+{{< /prestation >}}

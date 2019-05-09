@@ -1,8 +1,11 @@
-<div class="card bg-light mb-4 mt-4">
-  <div class="card-body">
-    <p><strong>› Objectif</strong> : {{ .Get "objectif" }}</p>
-    <p><strong>› Durée indicative</strong> : {{ .Get "durée" }}</p>
+<article><hr>
+  <h1>{{ .Get "nom" }}</h1>
+  <div class="card bg-light mb-4 mt-4">
+    <div class="card-body">
+      <p><strong>› Objectif</strong> : {{ .Get "objectif" }}</p>
+      <p><strong>› Durée indicative</strong> : {{ .Get "durée" }}</p>
+    </div>
   </div>
-</div>
 
-{{ .Inner | markdownify }}
+  {{ .Inner | markdownify }}
+</article>
