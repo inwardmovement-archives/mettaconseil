@@ -19,4 +19,5 @@ xxx
 xxx
 
 # Module personnalisé
+Module personnalisé développé sur mesure possible pour répondre à un besoin organisationnel spécifique de votre organisation.
 (tarif Conseil en organisation et système d'information s'applique)
