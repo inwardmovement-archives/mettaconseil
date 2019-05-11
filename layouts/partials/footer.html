@@ -2,11 +2,11 @@
   <div class="container">
     <div class="collapse navbar-collapse">
       <div class="navbar-nav mx-auto">
-        <a class="nav-item nav-link" href="{{ "/mentions-legales/" | relURL }}">Mentions légales</a>
-        <p class="d-none d-md-block">•</p>
-        <a class="nav-item nav-link" href="https://github.com/inwardmovement/mettaconseilpro" target="_blank">GitHub <i class="material-icons">launch</i></a>
-        <p class="d-none d-md-block">•</p>
-        <a class="nav-item nav-link" href="https://mettaconseil.fr">Pour les particuliers</a>
+        {{ $currentPage := . -}}
+        {{ range .Site.Menus.footer }}
+            <a class="nav-item nav-link" href="{{ .URL }}" {{ if eq .Identifier "github" }}target="_blank"{{ end }}>{{ .Name }}{{ if eq .Identifier "github" }} <i class="material-icons">launch</i>{{ end }}</a>
+            <p class="dot d-none d-md-block">•</p>
+        {{ end -}}
       </div>
     </div>
   </div>
