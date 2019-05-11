@@ -207,9 +207,10 @@ main.container {
     vertical-align: text-bottom;
   }
 
-  .card-title i {
+  .card-title i, .card-title img {
     vertical-align: text-top;
     font-size: 36px;
+    margin-right: 10px;
   }
 
 @font-face {

@@ -2,8 +2,8 @@
   <h1 class="text-info">{{ .Get "nom" }}</h1>
   <div class="card bg-light mb-4 mt-4">
     <div class="card-body">
-      <p><strong>› Objectif</strong> : {{ .Get "objectif" }}</p>
-      <p><strong>› Durée indicative</strong> : {{ .Get "durée" }}</p>
+      <p><strong>› Objectif</strong> : {{ .Get "objectif" | markdownify }}</p>
+      <p><strong>› Durée indicative</strong> : {{ .Get "durée" | markdownify }}</p>
     </div>
   </div>
   {{ .Inner | markdownify }}

@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-body">
-    <h3 class="card-title"><i class="material-icons">{{ .Get "icône" }}</i> {{ .Get "titre" }}</h3>
-    <p class="card-text">{{ .Get "description" | markdownify }}</p>
+    <h3 class="card-title">{{ with .Get "logo" }}<img src="data:image/png;base64,{{ (resources.Get "/img/logo_metta_1000.png" ).Content | base64Encode }}" width="36" class="" alt="logo">{{ end }}{{ with .Get "icône" }}<i class="material-icons">{{ . }}</i> {{ end }} {{ .Get "titre" }}</h3>
+    <p class="card-text">{{ .Inner | markdownify }}</p>
   </div>
 </div>
