@@ -19,6 +19,28 @@ a:focus, a:hover {
   text-decoration: none;
 }
 
+a.external::after {
+  content: 'launch';
+  padding-left: 4px !important;
+  position: inline-block;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  /* display: inline-block; prevent nbsp bypass */
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+  vertical-align: text-bottom;
+}
+
 b, strong {
     font-weight: 600;
 }
@@ -101,11 +123,6 @@ dd {
     bottom: 5rem;
     right: 5rem;
   }
-}
-
-/* fix fb-comments inconsistant width on mobile */
-.fb_iframe_widget span, .fb_iframe_widget span iframe {
-  width: 100% !important;
 }
 
 .card-deck {
@@ -348,19 +365,6 @@ main.container h1:first-child {
 .prestations h1:first-child {
   font-variant: initial;
 }
-
-/*:target {
-  animation: highlight 2s ease;
-}
-
-@keyframes highlight {
-  0% { background-color: #fcf8e3; }
-  100% { background-color: inherit; }
-}
-
-.footnote-ref {
-  background-color: inherit !important;
-}*/
 
 /************************************************************
   TOC

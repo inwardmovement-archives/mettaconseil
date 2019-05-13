@@ -21,7 +21,7 @@ blackfriday:
     - noEmptyLineBeforeBlock
 footnoteReturnLinkContents: "↑"
 menu:
-  mainleft:
+  main:
     - Name: "Accueil"
       URL: "/"
       Identifier: "accueil"
