@@ -30,7 +30,7 @@ United States
 Une fois la prestation réalisée, le client reçoit la facture à régler par virement bancaire dans les 30 jours.
 
 ## Tarif préférentiel
-Une réduction de `50 %` est appliquée sur le montant global de la facture, quelle que soit la prestation réalisée, pour les organisations alliées d'<a href="https://algosphere.org/fr/" target="_blank">Algosphère <i class="material-icons">launch</i></a>.
+Une réduction de `50 %` est appliquée sur le montant global de la facture, quelle que soit la prestation réalisée, pour les organisations alliées d'[Algosphère](https://algosphere.org/fr/).
 
 # Données personnelles
 ## Point de contact
@@ -43,10 +43,10 @@ Cette récolte est obligatoire, elle constitue le minimum de données permettant
 
 Les données sont supprimées 30 jours après la fin de prise de contact ou la réception du paiement.
 
-Seuls l'entrepreneur de Metta Conseil et les services de <a href="https://about.google/" target="_blank">Google <i class="material-icons">launch</i></a> ont accès aux données.
+Seuls l'entrepreneur de Metta Conseil et les services de [Google](https://about.google/) ont accès aux données.
 
-Les fondements juridiques de cette récolte sont l'intérêt légitime de Metta Conseil dans le cadre de la relation avec ses clients, et <a href="https://policies.google.com/privacy" target="_blank">ceux propres à l'utilisation des services de Google <i class="material-icons">launch</i></a>.
+Les fondements juridiques de cette récolte sont l'intérêt légitime de Metta Conseil dans le cadre de la relation avec ses clients, et [ceux propres à l'utilisation des services de Google](https://policies.google.com/privacy).
 
-Les données sont transmises hors de l'UE par les services de Google selon les <a href="https://policies.google.com/privacy/frameworks" target="_blank">modalités suivantes <i class="material-icons">launch</i></a>.
+Les données sont transmises hors de l'UE par les services de Google selon les [modalités suivantes](https://policies.google.com/privacy/frameworks).
 
 Le client dispose sur les données récoltées le concernant d'un droit d'accès, de rectification, d'interrogation et d'opposition qu'il peut faire valoir en contactant l'entrepreneur (voir *Mentions générales* > *Entrepreneur, directeur de publication*). Le client dispose aussi d'un droit d'introduire une réclamation (plainte) auprès de la CNIL.
