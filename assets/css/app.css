@@ -224,14 +224,14 @@ main.container {
   }
 
   .card-title i, .card-title img {
-    vertical-align: text-bottom;
+    vertical-align: middle; /* fix mobile */
     font-size: 36px;
     margin-right: 10px;
   }
 
   @media (min-width: 768px) {
     .card-title i, .card-title img {
-      vertical-align: text-top; /* fix mobile */
+      vertical-align: text-top;
     }
   }
 
