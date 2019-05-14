@@ -224,7 +224,7 @@ main.container {
   }
 
   .card-title i, .card-title img {
-    vertical-align: middle; /* fix mobile */
+    vertical-align: text-bottom; /* fix mobile */
     font-size: 36px;
     margin-right: 10px;
   }
