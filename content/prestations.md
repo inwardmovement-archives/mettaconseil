@@ -6,7 +6,6 @@ layout: prestations
 {{< prestation nom="Organisation et SI" objectif="mettre en place un ensemble \"organisation + système d'information\" clé-en-main." durée="1 semaine." >}}
 Version simple GDrive + possibilité d'intégrer des modules à votre site (portail, archives, textes officiels, etc.)
 
-
 **Particularités** :
 - cout de fonctionnement quasi nul
 - entrelacement/favorise les synergies entre organisations
