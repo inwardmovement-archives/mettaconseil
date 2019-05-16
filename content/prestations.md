@@ -29,6 +29,11 @@ Le système proposé s'appuie sur les principes organisationnels de base suivant
 
 La plupart des supports aux processus organisationnels étant des documents collaboratifs, l'offre est basée sur l'infrastructure numérique **Google Drive** pour bénéficier de la puissance de ses outils. Il vous est possible par la suite d'intégrer certains supports (portail, archives, textes officiels, etc.) directement à votre site web si vous le souhaitez.
 
+premier rdv
+deuxième rdv
+mise en place
+troisième rdv
+
 ## Phase A : diagnostic
 Dans un premier temps nous effectuons un diagnostic ciblé sur les processus organisationnels du collectif : il en découle une notation de l'efficacité et du cout de chaque processus, ouvrant la voie à des pistes d'amélioration.
 
