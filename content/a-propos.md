@@ -4,7 +4,7 @@ center: true
 ---
 
 {{< lead >}}
-  Notre mission est d'aider les organisations progressistes à accomplir la leur, en les aidant à s'organiser efficacement et à moindre cout.
+Notre mission est d'aider les organisations progressistes à accomplir la leur, en les aidant à s'organiser efficacement et à moindre cout.
 {{< /lead >}}
 
 ---

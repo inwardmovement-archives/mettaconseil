@@ -32,6 +32,9 @@ Une fois la prestation réalisée, le client reçoit la facture à régler par v
 ## Tarif préférentiel
 Une réduction de `50 %` est appliquée sur le montant global de la facture, quelle que soit la prestation réalisée, pour les organisations alliées d'[Algosphère](https://algosphere.org/fr/).
 
+## Clause limitative de responsabilité
+Metta Conseil ne peut être tenu pour responsable en cas de dysfonctionnement du service tiers [Google Drive](https://www.google.fr/drive/apps.html) utilisé comme support du système d'information mis en place.
+
 # Données personnelles
 ## Point de contact
 Voir *Mentions générales* > *Entrepreneur, directeur de publication*.
