@@ -14,6 +14,7 @@ function hugo(fetch) {
     console.log(stdout);
     console.log(stderr);
     fetch(err);
+    return;
   });
 };
 
