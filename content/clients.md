@@ -1,6 +1,6 @@
 ---
-title: Clients
-description: Nos clients
+title: "Clients"
+description: "Nos clients"
 layout: clients
 ---
 

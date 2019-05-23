@@ -1,6 +1,6 @@
 ---
-title: Modules
-description: Les modules que nous proposons
+title: "Modules"
+description: "Les modules que nous proposons"
 toc: false
 ---
 

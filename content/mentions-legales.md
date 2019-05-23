@@ -1,6 +1,6 @@
 ---
-title: Mentions légales
-description: Nos mentions légales
+title: "Mentions légales"
+description: "Nos mentions légales"
 toc: true
 ---
 

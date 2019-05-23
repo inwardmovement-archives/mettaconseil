@@ -1,6 +1,6 @@
 ---
-title: Tarifs
-description: Nos tarifs
+title: "Tarifs"
+description: "Nos tarifs"
 ---
 
 # Conseil en organisation et SI
