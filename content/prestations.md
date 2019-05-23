@@ -1,5 +1,6 @@
 ---
 title: Prestations
+description: Les prestations que nous offrons
 layout: prestations
 ---
 

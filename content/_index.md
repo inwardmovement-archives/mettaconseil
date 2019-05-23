@@ -1,6 +1,5 @@
 ---
-title: Notre mission
-header: true
+title: Accueil
 ---
 
 {{% jumbotron titre="Bonjour," %}}

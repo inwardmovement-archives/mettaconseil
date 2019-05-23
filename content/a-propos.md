@@ -1,5 +1,6 @@
 ---
 title: À propos
+description: Notre mission est d'aider les organisations progressistes à accomplir la leur.
 center: true
 ---
 
