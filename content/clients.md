@@ -1,6 +1,7 @@
 ---
 title: Clients
 layout: clients
+description: BLablabl te écez zer f
 ---
 
 <div class="card-deck">
