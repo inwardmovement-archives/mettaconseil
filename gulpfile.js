@@ -1,12 +1,12 @@
 const {src, dest, series} = require('gulp'),
                 replace   = require('gulp-replace'),
-                beautify  = require('gulp-html-prettify'),
+                beautify  = require('gulp-pretty-html'),
                 trim      = require('gulp-remove-empty-lines'),
                 exec      = require('child_process').exec,
                 del       = require('del');
 
 function reset() {
-  return del('public/**/*');
+  return del(['public', 'resources'])
 }
 
 function hugo(fetch) {
@@ -15,11 +15,13 @@ function hugo(fetch) {
     console.log(stderr);
     fetch(err);
   });
-};
+}
 
 function html() {
   return src('public/**/*.html')
-    .pipe(beautify({indent_char: ' ', indent_size: 2}))
+    .pipe(beautify({
+      indent_size: 2
+    }))
     .pipe(trim())
     // typography
     .pipe(replace('&laquo;', '&laquo;&#160;'))
@@ -33,8 +35,6 @@ function html() {
     .pipe(replace(' <i ', '&#160;<i '))
     .pipe(replace('</i> ', '</i>&#160;'))
     .pipe(dest('public'))
-};
-
-module.exports = {
-  default: series(reset, hugo, html)
 }
+
+exports.default = series(reset, hugo, html);

@@ -3,7 +3,7 @@
     <article{{ if eq .Params.center true }} class="text-center"{{ end }}>
       <h1 class="text-center">{{ .Title }}</h1><br>
       {{ if .Params.toc }}{{ .Page.TableOfContents }}<br><br>{{ end }}
-      {{ .Content -}}
+      {{ .Content }}
     </article>
   </main>
   {{ partial "top-btn" . }}
