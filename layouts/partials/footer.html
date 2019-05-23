@@ -11,9 +11,3 @@
     </div>
   </div>
 </nav>
-
-{{ $jquery := resources.Get "js/jquery.js" }}
-{{ $bootstrap := resources.Get "js/bootstrap.js" }}
-{{ $app := resources.Get "js/app.js" }}
-{{ $main := slice $jquery $bootstrap $app | resources.Concat "main.js" | minify | fingerprint }}
-<script src="{{ $main.Permalink }}" {{ with $main.Data.Integrity }} integrity="{{ . }}"{{ end }}></script>
