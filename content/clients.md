@@ -10,7 +10,8 @@ layout: clients
   {{< client nom="Droit au Corps" description="Association promouvant l’abandon de toute forme de mutilation sexuelle." lien="https://www.droitaucorps.com/" logo="dac.png" >}}
 </div>
 
-<div class="card-deck">
-  {{< client nom="Option Végane Canada" description="Organisation citoyenne d’activisme politique pan-nationale qui désire accorder l’accès à des options véganes dans divers domaines notamment l’alimentation." lien="https://veganoptioncanada.org/" logo="ovc.png" >}}
 
-</div>
+  {{< client nom="Option Végane Canada" description="Organisation citoyenne d’activisme politique pan-nationale qui désire accorder l’accès à des options véganes dans divers domaines notamment l’alimentation." lien="https://veganoptioncanada.org/" logo="ovc.png" >}}
+  {{< client-dummy >}}
+  {{< client-dummy >}}
+
