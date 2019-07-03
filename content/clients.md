@@ -12,7 +12,7 @@ layout: clients
 </div>
 
 <div class="card-deck">
-  {{< client nom="Option Végane Canada" description="Organisation citoyenne d’activisme politique pan-nationale qui désire accorder l’accès à des options véganes dans divers domaines notamment l’alimentation." lien="https://veganoptioncanada.org/" logo="ovc.png" >}}
+  {{< client nom="Option Végane Canada" description="Organisation citoyenne d’activisme politique pan-nationale qui désire accorder l’accès à des options véganes dans divers domaines notamment l’alimentation." lien="https://veganoptioncanada.org/" logo="ovc.jpg" >}}
   {{< client-dummy >}}
   {{< client-dummy >}}
 </div>
