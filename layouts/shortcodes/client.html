@@ -1,9 +1,8 @@
 <div class="card text-center">
-  {{ $logo := .Get "logo" }}
-  {{ $b64 := (resources.Get (print "/img/clients/" $logo)).Content | base64Encode }}
+  {{ $logo := (print "/img/clients/" (.Get "logo")) }}
   {{ with .Get "logo" }}
     {{ $ext := strings.TrimLeft (strings.TrimRight ".png" (strings.TrimRight ".jpg" . )) . }}
-        <img src="data:image/{{ if eq $ext ".jpg" }}jpeg{{ else if eq $ext ".png" }}png{{ end}};base64,{{ $b64 }}" class="card-img-top img-fluid rounded mx-auto" alt="logo {{ strings.TrimRight ".png" (strings.TrimRight ".jpg" . )}}" style="width: 50%; padding-top: 20px;">
+        <img src="{{ $logo }}" class="card-img-top img-fluid rounded mx-auto" alt="logo {{ strings.TrimRight ".png" (strings.TrimRight ".jpg" . )}}" style="width: 50%; padding-top: 20px;">
   {{ end }}
   <div class="card-body">
     <h3 class="card-title">{{ .Get "nom" }}</h3>
