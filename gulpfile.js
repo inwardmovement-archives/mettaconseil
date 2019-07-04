@@ -3,6 +3,7 @@ const {src, dest, series} = require('gulp'),
                 beautify  = require('gulp-pretty-html'),
                 exec      = require('child_process').exec,
                 imagemin  = require('gulp-imagemin'),
+                imgconv   = require('gulp-imgconv'),
                 del       = require('del');
 
 function reset() {
@@ -42,6 +43,9 @@ function images() {
     .pipe(imagemin({
       verbose: true
     }))
+    .pipe(imgconv({
+      format: 'webp',
+      }))
     .pipe(dest('public/img'))
 }
 
