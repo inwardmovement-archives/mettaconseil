@@ -2,6 +2,7 @@ const {src, dest, series} = require('gulp'),
                 replace   = require('gulp-replace'),
                 beautify  = require('gulp-pretty-html'),
                 exec      = require('child_process').exec,
+                imagemin  = require('gulp-imagemin'),
                 del       = require('del');
 
 function reset() {
@@ -34,6 +35,12 @@ function html() {
     .pipe(replace(' <i ', '&#160;<i '))
     .pipe(replace('</i> ', '</i>&#160;'))
     .pipe(dest('public'))
+}
+
+function images() {
+  return src('public/img/*')
+    .pipe(imagemin())
+    .pipe(dest('public/img'))
 }
 
 exports.default = series(reset, hugo, html);
