@@ -41,9 +41,9 @@ function html() {
 function images() {
   // global
   return src('public/img/**')
-    .pipe(imagemin({
-      verbose: true
-    }))
+    // .pipe(imagemin({
+    //   verbose: true
+    // }))
     .pipe(imgconv({
       format: 'webp',
       }))
