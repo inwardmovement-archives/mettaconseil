@@ -1,8 +1,12 @@
 <div class="card text-center">
-  {{ $logo := (print "/img/clients/" (.Get "logo")) }}
   {{ with .Get "logo" }}
-    {{ $ext := strings.TrimLeft (strings.TrimRight ".png" (strings.TrimRight ".jpg" . )) . }}
-        <img src="{{ $logo }}" class="card-img-top img-fluid rounded mx-auto" alt="logo {{ strings.TrimRight ".png" (strings.TrimRight ".jpg" . )}}" style="width: 50%; padding-top: 20px;">
+  {{ $logoOriginal := print "/img/clients/" .  }}
+  {{ $logoWebp := print (strings.TrimRight ".png" (strings.TrimRight ".jpg" (print "/img/clients/" . ) )) ".webp" }}
+    {{ if $.Site.IsServer }}
+      <img src="{{ $logoOriginal }}" class="card-img-top img-fluid rounded mx-auto" alt="logo {{ strings.TrimRight ".png" (strings.TrimRight ".jpg" . )}}" style="width: 50%; padding-top: 20px;">
+    {{ else }}
+      <img src="{{ $logoWebp }}" class="card-img-top img-fluid rounded mx-auto" alt="logo {{ strings.TrimRight ".png" (strings.TrimRight ".jpg" . )}}" style="width: 50%; padding-top: 20px;">
+    {{ end }}
   {{ end }}
   <div class="card-body">
     <h3 class="card-title">{{ .Get "nom" }}</h3>

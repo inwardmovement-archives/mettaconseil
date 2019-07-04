@@ -39,6 +39,7 @@ function html() {
 }
 
 function images() {
+  // global
   return src('public/img/**')
     .pipe(imagemin({
       verbose: true
@@ -46,7 +47,10 @@ function images() {
     .pipe(imgconv({
       format: 'webp',
       }))
-    .pipe(dest('public/img'))
+    .pipe(dest('public/img'));
+
+  // clients
+
 }
 
 exports.default = series(reset, hugo, html, images);
