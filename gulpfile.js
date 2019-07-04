@@ -38,9 +38,11 @@ function html() {
 }
 
 function images() {
-  return src('public/img/*')
-    .pipe(imagemin())
+  return src('public/img/**')
+    .pipe(imagemin({
+      verbose: true
+    }))
     .pipe(dest('public/img'))
 }
 
-exports.default = series(reset, hugo, html);
+exports.default = series(reset, hugo, html, images);
