@@ -1,11 +1,10 @@
-const {src, dest, series} = require('gulp'),
-                all       = require('gulp-all'),
-                replace   = require('gulp-replace'),
-                beautify  = require('gulp-pretty-html'),
-                exec      = require('child_process').exec,
-                imagemin  = require('gulp-imagemin'),
-                imgconv   = require('gulp-imgconv'),
-                del       = require('del');
+const { src, dest, series } = require('gulp'),
+      replace               = require('gulp-replace'),
+      beautify              = require('gulp-pretty-html'),
+      exec                  = require('child_process').exec,
+      imagemin              = require('gulp-imagemin'),
+      imgconv               = require('gulp-imgconv'),
+      del                   = require('del');
 
 function reset() {
   return del('public')
@@ -39,20 +38,19 @@ function html() {
     .pipe(dest('public'))
 }
 
-function images() {
-  return all(
-    // global
-    src('public/img/**')
-      .pipe(imagemin())
-      .pipe(dest('public/img')),
-
-    // clients
-    // src('public/img/clients/*.*')
-    //   .pipe(imgconv({
-    //     width: 200
-    //     }))
-    //   .pipe(dest('public/img/clients'))
-  )
+function imgGlobal() {
+  return src('public/img/**/*.*')
+    .pipe(imagemin())
+    .pipe(dest('public/img'))
 }
 
-exports.default = series(reset, hugo, html, images);
+function imgClients(done) {
+  src('public/img/clients/*.*')
+    .pipe(imgconv({
+      width: 200
+    }))
+    .pipe(dest('public/img/clients'))
+    done();
+};
+
+exports.default = series(reset, hugo, html, imgGlobal, imgClients);
