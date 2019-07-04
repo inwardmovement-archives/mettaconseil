@@ -40,7 +40,9 @@ function html() {
 
 function imgGlobal() {
   return src('public/img/**/*.*')
-    .pipe(imagemin())
+    .pipe(imagemin([
+      imagemin.optipng({optimizationLevel: 7})
+    ]))
     .pipe(dest('public/img'))
 }
 
