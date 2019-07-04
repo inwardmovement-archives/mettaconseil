@@ -1,4 +1,5 @@
 const {src, dest, series} = require('gulp'),
+                all       = require('gulp-all'),
                 replace   = require('gulp-replace'),
                 beautify  = require('gulp-pretty-html'),
                 exec      = require('child_process').exec,
@@ -39,18 +40,19 @@ function html() {
 }
 
 function images() {
-  // global
-  return src('public/img/**')
-    // .pipe(imagemin({
-    //   verbose: true
-    // }))
-    .pipe(imgconv({
-      format: 'webp',
-      }))
-    .pipe(dest('public/img'));
+  return all(
+    // global
+    src('public/img/**')
+      .pipe(imagemin())
+      .pipe(dest('public/img')),
 
-  // clients
-
+    // clients
+    // src('public/img/clients/*.*')
+    //   .pipe(imgconv({
+    //     width: 200
+    //     }))
+    //   .pipe(dest('public/img/clients'))
+  )
 }
 
 exports.default = series(reset, hugo, html, images);
