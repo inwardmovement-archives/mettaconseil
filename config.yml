@@ -51,11 +51,3 @@ menu:
       URL: "/mentions-legales/"
       Identifier: "mentions-legales"
       weight: 1
-    - Name: "GitHub"
-      URL: "https://github.com/inwardmovement/mettaconseilpro/"
-      Identifier: "github"
-      weight: 2
-    - Name: "Pour les particuliers"
-      URL: "https://mettaconseil.fr/"
-      Identifier: "pour-les-particuliers"
-      weight: 3
