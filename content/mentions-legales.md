@@ -28,6 +28,8 @@ United States
 
 - Prix d'une prestation de `60 minutes` de gestion informatique : `50,00 € HT` (*TVA non applicable, art. 293 B du CGI*).
 
+`30 minutes` est le minimum de temps de prestation facturé par prestation.
+
 Une fois la prestation réalisée, le client reçoit la facture à régler par virement bancaire dans les 30 jours.
 
 ## Tarif préférentiel
