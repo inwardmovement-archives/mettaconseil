@@ -30,22 +30,18 @@ menu:
       URL: "/prestations/"
       Identifier: "prestations"
       weight: 2
-    - Name: "Modules"
-      URL: "/modules/"
-      Identifier: "modules"
-      weight: 3
     - Name: "Clients"
       URL: "/clients/"
       Identifier: "clients"
-      weight: 4
+      weight: 3
     - Name: "Tarifs"
       URL: "/tarifs/"
       Identifier: "tarifs"
-      weight: 5
+      weight: 4
     - Name: "À propos"
       URL: "/a-propos/"
       Identifier: "a-propos"
-      weight: 6
+      weight: 5
   footer:
     - Name: "Mentions légales"
       URL: "/mentions-legales/"
