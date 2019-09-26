@@ -1,9 +1,7 @@
 {{ define "main" }}
   <main class="container prestations">
     <h1 class="text-center">{{ .Title }}</h1><br>
-    <div class="grid-prestations">
       {{ .Content }}
-    </div>
   </main>
   {{ partial "top-btn" . }}
 {{ end }}

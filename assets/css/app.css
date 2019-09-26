@@ -178,13 +178,7 @@ main.container {
 @supports (display: grid) {
   .grid-prestations {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
     grid-gap: 2rem;
-  }
-
-  .grid-prestations article {
-    grid-area: auto;
-    width: 100%; /* fix largeur deuxième colonne sur mobile */
   }
 }
 
@@ -192,7 +186,7 @@ main.container {
   @supports (display: grid) {
     .grid-prestations {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr 4fr;
       grid-gap: 5rem;
     }
   }
@@ -374,6 +368,11 @@ main.container h1:first-child {
 
 .prestations h1:first-child {
   font-variant: initial;
+}
+
+.grid-prestations h1:first-child {
+  font-variant: small-caps;
+  font-weight: 300 !important;
 }
 
 /************************************************************

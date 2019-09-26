@@ -4,7 +4,14 @@ description: "Les prestations que nous offrons"
 layout: prestations
 ---
 
-{{< prestation nom="Organisation et SI" objectif="mettre en place une organisation clé-en-main." durée="1 semaine." >}}
+<div class="grid-prestations">
+    <div class="nav flex-column nav-pills" id="prestations-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="organisation-si-tab" data-toggle="pill" href="#organisation-si" role="tab" aria-controls="organisation-si" aria-selected="true">Organisation et SI</a>
+      <a class="nav-link" id="gestion-informatique-tab" data-toggle="pill" href="#gestion-informatique" role="tab" aria-controls="gestion-informatique" aria-selected="false">Gestion informatique</a>
+    </div>
+    <div class="tab-content" id="prestations-tabContent">
+      <div class="tab-pane fade show active" id="organisation-si" role="tabpanel" aria-labelledby="organisation-si-tab">
+{{< prestation nom="Organisation et SI" >}}
 L'objectif est d'équiper un collectif d'une organisation et d'un système d'information lui permettant de fonctionner :
 - un processus de décision,
 - une plateforme collaborative reliant tous les membres,
@@ -30,16 +37,21 @@ Le système proposé s'appuie sur les principes organisationnels de base suivant
 
 La plupart des supports aux processus organisationnels étant des documents collaboratifs, l'offre est basée sur l'infrastructure numérique **Google Drive** pour bénéficier de la puissance de ses outils. Il vous est possible par la suite d'intégrer certains supports (portail, archives, textes officiels, etc.) directement à votre site web si vous le souhaitez.
 
-## Phase A : diagnostic
+## Déroulement
 Dans un premier temps nous effectuons un diagnostic ciblé sur les processus organisationnels du collectif : il en découle une notation de l'efficacité et du cout de chaque processus, ouvrant la voie à des pistes d'amélioration.
 
-## Phase B : cahier des charges
-Ensuite nous convenons d'un cahier des charges détaillant les [modules](/modules/) à mettre en place pour optimiser l'organisation.
+Ensuite nous convenons d'un cahier des charges détaillant les modules à mettre en place pour optimiser l'organisation.
 
-## Phase C : mise en place
 Puis nous procédons à la mise en place des modules choisis et vous accompagnons à leur prise en main.
+<div class="text-center">
+  <a class="btn btn-info" href="#" role="button">Télécharger la brochure des modules (à venir)</a>
+</div>
 {{< /prestation >}}
-
-{{< prestation nom="Gestion informatique" objectif="faire fonctionner l'organisation mise en place par Metta Conseil." durée="dépendante des tâches confiées." >}}
+      </div>
+      <div class="tab-pane fade" id="gestion-informatique" role="tabpanel" aria-labelledby="gestion-informatique-tab">
+{{< prestation nom="Gestion informatique" >}}
 Si vous choisissez la mise en place du module "webteam mutualisée", Metta Conseil s'occupe de la gestion organisationnelle de votre collectif.
 {{< /prestation >}}
+      </div>
+    </div>
+</div>
