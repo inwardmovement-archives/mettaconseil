@@ -28,14 +28,12 @@ Les particularités de cette organisation et de ce système d'information sont l
 
 La singularité de ce système : **il met automatiquement en place des synergies avec les collectifs œuvrant sur des sujets semblables** ou reliés de près ou de loin.
 
-Le système proposé s'appuie sur les principes organisationnels de base suivants :
+Le système proposé s'appuie sur les principes organisationnels suivants :
 - une *éthique claire*, c'est-à-dire une *finalité précise* : un but commun permet une prise de décision plus rationnelle sur la base des meilleurs arguments. Metta Conseil préconise la priorité donnée à l'allègement de la souffrance qui présente des avantages en termes organisationnels.
 - la *décision par consentement* : c'est un processus de décision qui tend à sélectionner les meilleurs arguments rationnels.
 - l'organisation *par centres d'intérêt* : l'intérêt de chacun pour les sous-projets constitue l'énergie naturelle qui fait avancer le projet global (stratégie du "projet latéral").
 - la *[transparence radicale](https://fr.wikipedia.org/wiki/Transparence_radicale)* : c'est un élément de sécurisation (donne de la confiance en externe et évite les dérapages en interne).
 - la *gratuité* de la participation.
-
-La plupart des supports aux processus organisationnels étant des documents collaboratifs, l'offre est basée sur l'infrastructure numérique **Google Drive** pour bénéficier de la puissance de ses outils. Il vous est possible par la suite d'intégrer certains supports (portail, archives, textes officiels, etc.) directement à votre site web si vous le souhaitez.
 
 ## Déroulement
 Dans un premier temps nous effectuons un diagnostic ciblé sur les processus organisationnels du collectif : il en découle une notation de l'efficacité et du cout de chaque processus, ouvrant la voie à des pistes d'amélioration.
@@ -50,7 +48,7 @@ Puis nous procédons à la mise en place des modules choisis et vous accompagnon
       </div>
       <div class="tab-pane fade" id="gestion-informatique" role="tabpanel" aria-labelledby="gestion-informatique-tab">
 {{< prestation nom="Gestion informatique" >}}
-Si vous choisissez la mise en place du module "webteam mutualisée", Metta Conseil s'occupe de la gestion organisationnelle de votre collectif.
+Si vous choisissez la mise en place du module "webteam mutualisée", Metta Conseil s'occupe de tout ou partie de la gestion organisationnelle de votre collectif.
 {{< /prestation >}}
       </div>
     </div>

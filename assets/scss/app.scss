@@ -1,3 +1,7 @@
+// $enable-transitions: false;
+
+@import "bootstrap/bootstrap";
+
 /************************************************************
   MISC
 ************************************************************/
@@ -154,24 +158,6 @@ main.container {
   max-width: 1140px;
 }
 
-@media (min-width: 576px) {
-  main.container {
-  ! max-width: none;
-  }
-}
-
-@media (min-width: 768px) {
-  main.container {
-  ! max-width: none;
-  }
-}
-
-@media (min-width: 992px) {
-  main.container {
-  ! max-width: none;
-  }
-}
-
 /************************************************************
   GRID
 ************************************************************/
@@ -250,7 +236,7 @@ main.container {
 
   .ds {
     font-family: 'Dancing Script', cursive;
-    font-size: 2.5rem !important;
+    font-size: 3rem !important;
   }
 
 /************************************************************
