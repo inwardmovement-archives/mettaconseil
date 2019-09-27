@@ -5,12 +5,12 @@ layout: prestations
 ---
 
 <div class="grid-prestations">
-    <div class="nav flex-column nav-pills" id="prestations-tab" role="tablist" aria-orientation="vertical">
-      <a class="nav-link active" id="organisation-si-tab" data-toggle="pill" href="#organisation-si" role="tab" aria-controls="organisation-si" aria-selected="true">Organisation et SI</a>
-      <a class="nav-link" id="gestion-informatique-tab" data-toggle="pill" href="#gestion-informatique" role="tab" aria-controls="gestion-informatique" aria-selected="false">Gestion informatique</a>
-    </div>
-    <div class="tab-content" id="prestations-tabContent">
-      <div class="tab-pane fade show active" id="organisation-si" role="tabpanel" aria-labelledby="organisation-si-tab">
+  <div class="nav flex-column nav-pills" id="prestations-tab" role="tablist" aria-orientation="vertical">
+    <a class="nav-link active" id="organisation-si-tab" data-toggle="pill" href="#organisation-si" role="tab" aria-controls="organisation-si" aria-selected="true">Organisation et SI</a>
+    <a class="nav-link" id="gestion-informatique-tab" data-toggle="pill" href="#gestion-informatique" role="tab" aria-controls="gestion-informatique" aria-selected="false">Gestion informatique</a>
+  </div>
+  <div class="tab-content" id="prestations-tabContent">
+    <div class="tab-pane fade show active" id="organisation-si" role="tabpanel" aria-labelledby="organisation-si-tab">
 {{< prestation nom="Organisation et SI" >}}
 L'objectif est d'équiper un collectif d'une organisation et d'un système d'information lui permettant de fonctionner :
 - un processus de décision,
@@ -45,11 +45,11 @@ Puis nous procédons à la mise en place des modules choisis et vous accompagnon
   <a class="btn btn-info" href="#" role="button">Télécharger la brochure des modules (à venir)</a>
 </div>
 {{< /prestation >}}
-      </div>
-      <div class="tab-pane fade" id="gestion-informatique" role="tabpanel" aria-labelledby="gestion-informatique-tab">
+    </div>
+    <div class="tab-pane fade" id="gestion-informatique" role="tabpanel" aria-labelledby="gestion-informatique-tab">
 {{< prestation nom="Gestion informatique" >}}
 Si vous choisissez la mise en place du module "webteam mutualisée", Metta Conseil s'occupe de tout ou partie de la gestion organisationnelle de votre collectif.
 {{< /prestation >}}
-      </div>
     </div>
+  </div>
 </div>
