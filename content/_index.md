@@ -18,8 +18,8 @@ Il est critique pour les organisations progressistes de rentabiliser au maximum 
 Elles gaspillent trop souvent leurs ressources (temps, compétences, argent) dans leur propre fonctionnement, générant au passage des effets contre-productifs.
   {{< /feature >}}
   {{< feature titre="L'offre" logo="true" >}}
-Metta Conseil met son savoir-faire à disposition des organisations progressistes pour les aider à **s’organiser efficacement et à moindre cout**.
+Metta Conseil met son savoir-faire à disposition des organisations progressistes pour les aider à **s'organiser efficacement et à moindre cout**.
 
-L'organisation proposée est adaptative et simple à mettre en place et à faire fonctionner. Elle est gratuite pour peu que vous ayez quelques bénévoles volontaires pour s'en occuper.
+L'organisation proposée est adaptative et simple à mettre en place et à faire fonctionner. Elle est gratuite pour peu que quelques bénévoles soient volontaires pour s'en occuper.
   {{< /feature >}}
 </div>

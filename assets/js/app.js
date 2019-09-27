@@ -21,18 +21,14 @@ function topFunction() {
 
 // LINK TO TABS
 $(document).ready(() => {
-  let url = location.href.replace(/\/$/, "");
-
-  if (location.hash) {
-    const hash = url.split("#");
-    $('#prestations-tab a[href="#'+hash[1]+'"]').tab("show");
-    url = location.href.replace(/\/#/, "#");
-    history.replaceState(null, null, url);
-    $(window).scrollTop(0);
+  var url = window.location.href;
+  if (url.indexOf("#") > 0){
+  var activeTab = url.substring(url.indexOf("#") + 1);
+    $('.nav[role="tablist"] a[href="#'+activeTab+'"]').tab('show');
   }
 
-  $('a[data-toggle="pill"]').on("click", function() {
-    let newUrl;
+  $('a[role="tab"]').on("click", function() {
+    var newUrl;
     const hash = $(this).attr("href");
       newUrl = url.split("#")[0] + hash;
     history.replaceState(null, null, newUrl);

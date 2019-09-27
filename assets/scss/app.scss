@@ -1,17 +1,18 @@
 /************************************************************
-  BOOTSTRAP CUSTOMIZATION
+  BOOTSTRAP CUSTOMIZATION AND IMPORT
 ************************************************************/
 $cyan: #17a2b8;
 $info: $cyan;
 
 $nav-pills-link-active-bg: $info;
-.nav-pills .nav-link {
-    color: $info;
-}
-.nav-pills .nav-link:hover {
-    color: darken($info, 15%);
-}
 
+.nav-pills .nav-link {
+  color: $info;
+
+  &:hover {
+    color: darken($info, 15%);
+  }
+}
 
 @import "bootstrap/bootstrap";
 
