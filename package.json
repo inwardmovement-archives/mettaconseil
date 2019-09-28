@@ -19,8 +19,8 @@
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^6.0.0",
-    "gulp-imgconv": "^0.6.4",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-imgconv": "^0.6.6",
     "gulp-pretty-html": "^2.0.10",
     "gulp-replace": "^0.6.1",
     "imagemin-gifsicle": "^6.0.1",
