@@ -1,4 +1,3 @@
-dist: xenial
 sudo: required
 language: node_js
 node_js:
@@ -17,7 +16,7 @@ deploy:
   provider: pages
   local-dir: public
   target-branch: master
-  skip-cleanup: true
+  skip-cleanup: false
   github-token: $GITHUB_TOKEN
   on:
     branch: source
