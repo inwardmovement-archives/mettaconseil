@@ -50,7 +50,7 @@ Puis nous procédons à la mise en place des modules choisis et vous accompagnon
 {{< prestation nom="Gestion informatique" >}}
 Metta Conseil gère le fonctionnement de tout ou partie des <abbr data-toggle="tooltip" title="Voir « Organisation et SI »">modules</abbr> mis en place.
 
-La prestation peut être étendue à la gestion de toute l'organisation de votre collectif : administratif, comptabilité...
+La prestation peut être étendue à la gestion de toute l'organisation de votre collectif : administratif, comptabilité, traitement des mails...
 {{< /prestation >}}
     </div>
   </div>
