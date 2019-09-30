@@ -36,7 +36,7 @@ Le système proposé s'appuie sur les principes organisationnels suivants :
 - la *gratuité* de la participation.
 
 ## Déroulement
-Dans un premier temps nous effectuons un diagnostic ciblé sur les processus organisationnels du collectif : il en découle une notation de l'efficacité et du cout de chaque processus, ouvrant la voie à des pistes d'amélioration.
+Dans un premier temps nous effectuons un diagnostic ciblé sur les processus organisationnels du collectif : il en découle une évaluation de l'efficacité et du cout de chaque processus, ouvrant la voie à des pistes d'amélioration.
 
 Ensuite nous convenons d'un cahier des charges détaillant les modules à mettre en place pour optimiser l'organisation.
 
@@ -48,7 +48,9 @@ Puis nous procédons à la mise en place des modules choisis et vous accompagnon
     </div>
     <div class="tab-pane fade" id="gestion-informatique" role="tabpanel" aria-labelledby="gestion-informatique-tab">
 {{< prestation nom="Gestion informatique" >}}
-Si vous choisissez la mise en place du module "webteam mutualisée", Metta Conseil s'occupe de tout ou partie de la gestion organisationnelle de votre collectif.
+Metta Conseil gère le fonctionnement de tout ou partie des modules mis en place.
+
+La prestation peut être étendue à la gestion de toute l'organisation de votre collectif : administratif, comptabilité...
 {{< /prestation >}}
     </div>
   </div>
