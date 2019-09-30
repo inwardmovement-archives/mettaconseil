@@ -1,3 +1,8 @@
+// INITIALIZE TOOLTIPS
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
 // TOP BUTTON
 window.onscroll = function() {scrollFunction()};
 

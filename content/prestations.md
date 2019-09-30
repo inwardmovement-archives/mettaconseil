@@ -42,13 +42,13 @@ Ensuite nous convenons d'un cahier des charges détaillant les modules à mettre
 
 Puis nous procédons à la mise en place des modules choisis et vous accompagnons à leur prise en main.
 <div class="text-center">
-  <a class="btn btn-info" href="#" role="button">Télécharger la brochure des modules (à venir)</a>
+  <button type="button" class="btn btn-info" onclick="if(jQuery.browser.mobile){window.open('/mettaconseil-modules.pdf','_self')}else{window.open('/mettaconseil-modules.pdf')}"><i class="material-icons">search</i> Voir les modules</button>
 </div>
 {{< /prestation >}}
     </div>
     <div class="tab-pane fade" id="gestion-informatique" role="tabpanel" aria-labelledby="gestion-informatique-tab">
 {{< prestation nom="Gestion informatique" >}}
-Metta Conseil gère le fonctionnement de tout ou partie des modules mis en place.
+Metta Conseil gère le fonctionnement de tout ou partie des <abbr data-toggle="tooltip" title="Voir « Organisation et SI »">modules</abbr> mis en place.
 
 La prestation peut être étendue à la gestion de toute l'organisation de votre collectif : administratif, comptabilité...
 {{< /prestation >}}
