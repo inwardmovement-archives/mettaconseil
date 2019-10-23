@@ -12,7 +12,11 @@ layout: prestations
   <div class="tab-content" id="prestations-tabContent">
     <div class="tab-pane fade show active" id="organisation-si" role="tabpanel" aria-labelledby="organisation-si-tab">
 {{< prestation nom="Organisation et SI" >}}
-L'objectif est d'équiper un collectif d'une organisation et d'un système d'information lui permettant de fonctionner :
+<p class="lead text-center">Cette prestation consiste à nous confier la mise en place d'un système vous permettant de gérer les tâches organisationnelles indispensables au fonctionnement de votre collectif</p>
+
+---
+
+L'objectif est d'équiper votre collectif d'une organisation et d'un système d'information lui permettant de fonctionner :
 - un processus de décision,
 - une plateforme collaborative reliant tous les membres,
 - les processus de gestion des membres,
@@ -34,23 +38,22 @@ Le système proposé s'appuie sur les principes organisationnels suivants :
 - l'organisation *par centres d'intérêt* : l'intérêt de chacun pour les sous-projets constitue l'énergie naturelle qui fait avancer le projet global (stratégie du "projet latéral").
 - la *[transparence radicale](https://fr.wikipedia.org/wiki/Transparence_radicale)* : c'est un élément de sécurisation (donne de la confiance en externe et évite les dérapages en interne).
 - la *gratuité* de la participation.
-
-## Déroulement
-Dans un premier temps nous effectuons un diagnostic ciblé sur les processus organisationnels du collectif : il en découle une évaluation de l'efficacité et du cout de chaque processus, ouvrant la voie à des pistes d'amélioration.
-
-Ensuite nous convenons d'un cahier des charges détaillant les modules à mettre en place pour optimiser l'organisation.
-
-Puis nous procédons à la mise en place des modules choisis et vous accompagnons à leur prise en main.
-<div class="text-center">
-  <button type="button" class="btn btn-info" onclick="if(jQuery.browser.mobile){window.open('/mettaconseil-modules.pdf','_self')}else{window.open('/mettaconseil-modules.pdf')}"><i class="material-icons">search</i> Voir les modules</button>
-</div>
 {{< /prestation >}}
     </div>
     <div class="tab-pane fade" id="gestion-informatique" role="tabpanel" aria-labelledby="gestion-informatique-tab">
 {{< prestation nom="Gestion informatique" >}}
-Metta Conseil gère le fonctionnement de tout ou partie des <abbr data-toggle="tooltip" title="Voir « Organisation et SI »">modules</abbr> mis en place.
+<p class="lead text-center">Cette prestation consiste à nous confier directement la gestion de certaines tâches organisationnelles</p>
 
-La prestation peut être étendue à la gestion de toute l'organisation de votre collectif : administratif, comptabilité, traitement des mails...
+---
+
+Les tâches envisageables sont aussi variées que :
+- edition de contenu web
+- prise de notes en réunion et diffusion du compte-rendu
+- gestion de newsletter
+- animation des réseaux sociaux
+- tâches administratives diverses
+- ...
+
 {{< /prestation >}}
     </div>
   </div>
