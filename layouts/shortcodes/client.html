@@ -1,7 +1,7 @@
 <div class="card text-center">
   {{ with .Get "logo" }}
   {{ $logo := print "/img/clients/" .  }}
-    <img src="{{ $logo }}" class="card-img-top img-fluid rounded mx-auto" alt="logo {{ strings.TrimRight ".png" (strings.TrimRight ".jpg" . )}}" style="width: 50%; padding-top: 20px;">
+    <img src="data:image/png;base64,{{ (resources.Get $logo ).Content | base64Encode }}" class="card-img-top img-fluid rounded mx-auto" alt="logo {{ strings.TrimRight ".png" (strings.TrimRight ".jpg" . )}}" style="width: 50%; padding-top: 20px;">
   {{ end }}
   <div class="card-body">
     <h3 class="card-title">{{ .Get "nom" }}</h3>
