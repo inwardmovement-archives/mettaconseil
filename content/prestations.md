@@ -48,11 +48,11 @@ Le système proposé s'appuie sur les principes organisationnels suivants :
 
 Les tâches envisageables sont aussi variées que :
 - edition de contenu web
+- création/refonte de site Internet
 - prise de notes en réunion et diffusion du compte-rendu
 - gestion de newsletter
 - animation des réseaux sociaux
 - tâches administratives diverses
-- ...
 
 {{< /prestation >}}
     </div>

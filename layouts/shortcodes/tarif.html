@@ -2,13 +2,13 @@
   <table class="table">
     <thead>
       <tr>
-        <td>{{ .Get "prestation" }}</td>
+        <td>{{ .Inner | markdownify }}</td>
         <td class="text-right"><span class="badge badge-success">{{ .Get "prix" }} € / h</span></td>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>{{ .Get "prestation" }}
+        <td>
           <p><small class="text-muted">pour les organisations alliées d'<a href="https://algosphere.org/fr/">Algosphère</a></small></p></td>
         <td class="text-right"><span class="badge badge-success">{{ .Get "prix-algo" }} € / h</span></td>
       </tr>
