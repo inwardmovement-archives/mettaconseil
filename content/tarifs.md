@@ -17,5 +17,5 @@ Suivant l'ampleur de votre structure, des frais supplémentaires correspondant a
 
 # Gestion informatique
 {{< tarif prix="50" prix-algo="25" >}}
-Gestion des tâches confiées
+- gestion des tâches confiées
 {{< /tarif >}}
