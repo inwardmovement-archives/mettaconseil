@@ -1,0 +1,10 @@
+{
+  "feature-dummy": {
+		"scope": "plaintext,markdown",
+		"prefix": "feature-dummy",
+		"body": [
+      "{{< feature-dummy >}}"
+		],
+		"description": ""
+	}
+}

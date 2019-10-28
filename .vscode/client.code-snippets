@@ -1,0 +1,10 @@
+{
+  "client": {
+		"scope": "plaintext,markdown",
+		"prefix": "client",
+		"body": [
+      "{{< client nom=\"$1\" description=\"$2\" lien=\"$3\" logo=\"$4\" >}}",
+		],
+		"description": ""
+	}
+}

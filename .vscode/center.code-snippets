@@ -1,0 +1,12 @@
+{
+  "center": {
+		"scope": "plaintext,markdown",
+		"prefix": "center",
+		"body": [
+      "{{< center >}}",
+      "$0",
+			"{{< /center >}}",
+		],
+		"description": ""
+	}
+}

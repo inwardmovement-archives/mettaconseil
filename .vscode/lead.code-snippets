@@ -1,0 +1,12 @@
+{
+  "lead": {
+		"scope": "plaintext,markdown",
+		"prefix": "lead",
+		"body": [
+      "{{< lead \"$1\" >}}",
+      "$0",
+			"{{< /lead >}}",
+		],
+		"description": ""
+	}
+}

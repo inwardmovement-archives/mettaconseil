@@ -1,0 +1,10 @@
+{
+  "client-dummy": {
+		"scope": "plaintext,markdown",
+		"prefix": "client-dummy",
+		"body": [
+      "{{< client-dummy >}}"
+		],
+		"description": ""
+	}
+}

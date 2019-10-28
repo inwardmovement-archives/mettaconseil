@@ -1,0 +1,12 @@
+{
+  "prestation": {
+		"scope": "plaintext,markdown",
+		"prefix": "prestation",
+		"body": [
+      "{{< prestation nom=\"$1\" >}}",
+      "$0",
+			"{{< /prestation >}}",
+		],
+		"description": ""
+	}
+}

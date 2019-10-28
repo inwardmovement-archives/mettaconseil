@@ -1,0 +1,12 @@
+{
+  "tarif": {
+		"scope": "plaintext,markdown",
+		"prefix": "tarif",
+		"body": [
+      "{{< tarif prix=\"$1\" prix-algo=\"$2\" >}}",
+      "$0",
+			"{{< /tarif >}}",
+		],
+		"description": ""
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "feature": {
+		"scope": "plaintext,markdown",
+		"prefix": "feature",
+		"body": [
+      "{{< feature titre=\"$1\" logo=\"$2\" >}}",
+      "$0",
+			"{{< /feature >}}",
+		],
+		"description": ""
+	}
+}
