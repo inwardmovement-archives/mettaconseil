@@ -22,6 +22,9 @@ San Francisco, CA 94107
 United States
 +1 (877) 448-4820
 
+## Cookies
+Ce site Internet n'utilise pas de cookies.
+
 # Conditions Générales de Vente
 ## Prix et paiement
 - Prix d'une prestation de `60 minutes` de conseil en organisation et système d'information : `80,00 € HT` (*TVA non applicable, art. 293 B du CGI*).
