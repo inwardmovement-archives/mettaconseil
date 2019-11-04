@@ -11,7 +11,7 @@ description: "Nos tarifs"
 - conseil en organisation et SI
 
 {{< alert info >}}
-Suivant l'ampleur de votre structure, des frais supplémentaires correspondant aux versions payantes des services tiers utilisés (emailing, hébergement, etc.) peuvent s'ajouter.
+La prestation s'appuie sur les versions gratuites de services tiers comme les [produits Google](https://about.google/products/), [Mailchimp](https://mailchimp.com/), [Netlify](https://www.netlify.com/), [Firebase](https://firebase.google.com/), etc. Suivant l'évolution de votre structure, la souscription aux plans payants devra être envisagée.
 {{< /alert >}}
 {{< /tarif >}}
 
