@@ -14,4 +14,4 @@ Nous partageons la [vision](https://algosphere.org/fr/?page_id=929) de l'Allianc
 
 Notre valeur-racine et priorité éthique est l'allègement de la souffrance.
 
-*Mettā* signifie "bienveillance" en pāli.
+*Mettā* signifie « bienveillance » en pāli.

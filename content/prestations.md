@@ -35,7 +35,7 @@ La singularité de ce système : **il met automatiquement en place des synergies
 Le système proposé s'appuie sur les principes organisationnels suivants :
 - une *éthique claire*, c'est-à-dire une *finalité précise* : un but commun permet une prise de décision plus rationnelle sur la base des meilleurs arguments. Metta Conseil préconise la priorité donnée à l'allègement de la souffrance qui présente des avantages en termes organisationnels.
 - la *décision par consentement* : c'est un processus de décision qui tend à sélectionner les meilleurs arguments rationnels.
-- l'organisation *par centres d'intérêt* : l'intérêt de chacun pour les sous-projets constitue l'énergie naturelle qui fait avancer le projet global (stratégie du "projet latéral").
+- l'organisation *par centres d'intérêt* : l'intérêt de chacun pour les sous-projets constitue l'énergie naturelle qui fait avancer le projet global (stratégie du « projet latéral »).
 - la *[transparence radicale](https://fr.wikipedia.org/wiki/Transparence_radicale)* : c'est un élément de sécurisation (donne de la confiance en externe et évite les dérapages en interne).
 - la *gratuité* de la participation.
 {{< /prestation >}}
