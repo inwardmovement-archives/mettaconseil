@@ -16,7 +16,7 @@ layout: prestations
 
 ---
 
-L'objectif est d'équiper votre collectif d'une organisation et d'un système d'information lui permettant de fonctionner :
+L'objectif est d'équiper votre collectif d'une organisation et d'un système d'information (SI) lui permettant de fonctionner :
 - un processus de décision,
 - une plateforme collaborative reliant tous les membres,
 - les processus de gestion des membres,
