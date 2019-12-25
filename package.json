@@ -1,31 +1,30 @@
 {
   "name": "mettaconseil",
   "version": "1.0.0",
-  "description": "Psychanalyse",
+  "description": "Conseil en développement personnel",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "hugo server -DEF --i18n-warnings",
+    "build-prod": "hugo --i18n-warnings --minify && gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inwardmovement/mettaconseil.git"
+    "url": "git+https://github.com/inwardmovement/mettaconseilpro.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/inwardmovement/mettaconseil/issues"
+    "url": "https://github.com/inwardmovement/mettaconseilpro/issues"
   },
-  "homepage": "https://github.com/inwardmovement/mettaconseil",
+  "homepage": "https://github.com/inwardmovement/mettaconseilpro",
   "devDependencies": {
-    "del": "^3.0.0",
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^6.1.0",
-    "gulp-imgconv": "^0.6.6",
+    "gulp-imagemin": "^6.2.0",
     "gulp-pretty-html": "^2.0.10",
     "gulp-replace": "^0.6.1",
     "imagemin-gifsicle": "^6.0.1",
     "imagemin-jpegtran": "^6.0.0",
-    "imagemin-optipng": "^7.0.0",
+    "imagemin-optipng": "^7.1.0",
     "imagemin-svgo": "^7.0.0"
   }
 }
