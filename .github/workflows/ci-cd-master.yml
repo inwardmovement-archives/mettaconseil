@@ -13,6 +13,7 @@ env:
   HUGO_VERSION: '0.62.0'
   NETLIFY_SITE_ID: '63b1b173-d9a6-4f37-a9a5-70e7b3652447'
   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_METTACONSEILPRO }}
+  DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
   GITHUB_COMMIT_MESSAGE: ${{ github.event.commits[0].message }}
 
 jobs:
@@ -45,3 +46,9 @@ jobs:
       with:
         args: "deploy --prod --dir public"
       if: success()
+    - name: Notify Discord on failure
+      uses: rjstone/discord-webhook-notify@v1
+      if: failure()
+      with:
+        text: CI/CD failed
+        webhookUrl: ${{ env.DISCORD_WEBHOOK }}
