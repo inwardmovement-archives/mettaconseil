@@ -16,11 +16,11 @@ contact@mettaconseil.fr
 `APE 9609Z`
 
 ## Hébergeur {#hebergeur}
-GitHub, Inc.
-88 Colin P Kelly Jr St
+Netlify
+2325 3rd St Suite 215
 San Francisco, CA 94107
 United States
-+1 (877) 448-4820
++1 415-691-1573
 
 ## Cookies
 Ce site Internet n'utilise pas de cookies.
