@@ -16,7 +16,7 @@ contact@mettaconseil.fr
 `APE 9609Z`
 
 ## Hébergeur {#hebergeur}
-Netlify
+**Netlify**
 2325 3rd St Suite 215
 San Francisco, CA 94107
 United States
