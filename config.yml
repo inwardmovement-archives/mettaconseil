@@ -3,7 +3,7 @@ defaultContentLanguage: "fr"
 languageCode: "fr"
 title: "Metta Conseil"
 canonifyURLs: false
-relativeURLs : true
+relativeURLs: true
 disableFastRender: true
 disableLiveReload: true
 metaDataFormat: yaml
