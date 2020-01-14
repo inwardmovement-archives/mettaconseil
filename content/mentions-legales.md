@@ -4,7 +4,7 @@ description: "Nos mentions légales"
 toc: true
 ---
 
-# Mentions générales {#mentions-generales}
+# Mentions générales
 ## Entrepreneur, directeur de publication
 Victor Massé
 735 avenue du général de Gaulle
@@ -15,7 +15,7 @@ contact@mettaconseil.fr
 `SIRET 85042677600017`
 `APE 9609Z`
 
-## Hébergeur {#hebergeur}
+## Hébergeur
 **Netlify**
 2325 3rd St Suite 215
 San Francisco, CA 94107
@@ -25,7 +25,7 @@ United States
 ## Cookies
 Ce site Internet n'utilise pas de cookies.
 
-# Conditions Générales de Vente {#conditions-generales-de-vente}
+# Conditions Générales de Vente
 ## Prix et paiement
 - Prix d'une prestation de `60 minutes` de conseil en organisation et système d'information : `80,00 € HT` (*TVA non applicable, art. 293 B du CGI*).
 
@@ -35,21 +35,21 @@ Ce site Internet n'utilise pas de cookies.
 
 Une fois la prestation réalisée, le client reçoit la facture à régler par virement bancaire dans les 30 jours.
 
-## Tarif préférentiel {#tarif-preferentiel}
+## Tarif préférentiel
 Une réduction de `50 %` est appliquée sur le montant global de la facture, quelle que soit la prestation réalisée, pour les organisations alliées d'[Algosphère](https://algosphere.org/fr/).
 
 ## Retard de paiement
 - Taux journalier des pénalités de retard exigibles en cas de non-paiement à la date de règlement : `10 %`
 - Indemnité forfaitaire pour frais de recouvrement en cas de retard de paiement : `40,00 €`
 
-## Clause limitative de responsabilité {#clause-limitative-de-responsabilite}
+## Clause limitative de responsabilité
 Metta Conseil ne peut être tenu pour responsable en cas de dysfonctionnement du service tiers [Google Drive](https://www.google.fr/drive/apps.html) utilisé comme support du système d'information mis en place.
 
-# Données personnelles {#donnees-personnelles}
+# Données personnelles
 ## Point de contact
 Voir *Mentions générales* > *Entrepreneur, directeur de publication*.
 
-## Données récoltées {#donnees-recoltees}
+## Données récoltées
 Les données récoltées sont les mails et coordonnées associées, en vue de la prise de contact, des échanges nécessaires à la bonne réalisation de la prestation et du suivi du paiement.
 
 Cette récolte est obligatoire, elle constitue le minimum de données permettant l'exécution de la prestation.

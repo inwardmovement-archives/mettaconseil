@@ -29,6 +29,7 @@ markup:
     parser:
       attribute: true
       autoHeadingID: true
+      autoHeadingIDType: github
     renderer:
       hardWraps: true
       unsafe: true
