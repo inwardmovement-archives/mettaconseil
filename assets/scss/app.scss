@@ -131,21 +131,28 @@ dd {
   display: none;
 }
 
-#topBtn {
-  display: none; /* displayed with javascript */
+.top-btn {
+  display: none;
+  justify-content: center;
+  align-items: center;
   position: fixed;
-  bottom: 4.1rem;
-  right: .5rem;
-}
+  bottom: 1.5rem;
+  right: 1.5rem;
+  height: 3.5em;
+  width: 3.5em;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
 
-@media (min-width: 768px) {
-  #topBtn {
-    display: none; /* displayed with javascript */
-    position: fixed;
+  svg {
+    fill: #5f6368;
+  }
+
+  @include media-breakpoint-up(md) {
     bottom: 5rem;
     right: 5rem;
   }
 }
+
 
 .card-deck {
   margin-bottom: 30px;
