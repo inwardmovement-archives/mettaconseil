@@ -8,7 +8,6 @@ aliases: ["/tarifs"]
   Organisation et SI
   Développement web
   Gestion informatique
-  Gestion administrative
 {{< /tarif >}}
 
 {{< alert info >}}

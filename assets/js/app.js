@@ -1,6 +1,11 @@
-// INITIALIZE TOOLTIPS
+// ENABLE TOOLTIPS
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
+})
+
+// ENABLE POPOVERS
+$(function () {
+  $('[data-toggle="popover"]').popover()
 })
 
 // TOP BUTTON

@@ -7,12 +7,13 @@ layout: prestations
 <div class="grid-prestations">
   <div class="nav flex-column nav-pills" id="prestations-tab" role="tablist" aria-orientation="vertical">
     <a class="nav-link active" id="organisation-si-tab" data-toggle="pill" href="#organisation-si" role="tab" aria-controls="organisation-si" aria-selected="true">Organisation et SI</a>
+    <a class="nav-link" id="developpement-web-tab" data-toggle="pill" href="#developpement-web" role="tab" aria-controls="developpement-web" aria-selected="false">Développement web</a>
     <a class="nav-link" id="gestion-informatique-tab" data-toggle="pill" href="#gestion-informatique" role="tab" aria-controls="gestion-informatique" aria-selected="false">Gestion informatique</a>
   </div>
   <div class="tab-content" id="prestations-tabContent">
     <div class="tab-pane fade show active" id="organisation-si" role="tabpanel" aria-labelledby="organisation-si-tab">
-{{< prestation nom="Organisation et SI" >}}
-<p class="lead text-center">Cette prestation consiste à nous confier la mise en place d'un système vous permettant de gérer les tâches organisationnelles indispensables au fonctionnement de votre collectif</p>
+{{< prestation nom="Organisation et Systèmes d'Information" >}}
+<p class="lead text-center">Vous nous confiez la mise en place d'un système vous permettant de gérer les tâches organisationnelles indispensables au fonctionnement de votre collectif</p>
 
 ---
 
@@ -40,15 +41,31 @@ Le système proposé s'appuie sur les principes organisationnels suivants :
 - la *gratuité* de la participation.
 {{< /prestation >}}
     </div>
+    <div class="tab-pane fade" id="developpement-web" role="tabpanel" aria-labelledby="developpement-web-tab">
+{{< prestation nom="Développement web" >}}
+<p class="lead text-center">Vous nous confiez la création ou la refonte de votre site Internet</p>
+
+---
+
+Technologies utilisées :
+- [JAMstack](https://jamstack.org/) : c'est une nouvelle façon de créer des sites Web et applications offrant de meilleures performances, une sécurité accrue, une évolutivité à cout réduit et une meilleure expérience de développement.
+- [Hugo](https://gohugo.io/) : générateur de site statique.
+- [Bootstrap](https://getbootstrap.com/) : framework CSS.
+- [Firebase](https://firebase.google.com/) : base de données.
+- [Netlify](https://www.netlify.com/) : hébergement du site.
+- [Git](https://git-scm.com/) : gestion de versions.
+- [GitHub](https://github.com/) : hébergement du code source, intégration et déploiement continus.
+
+{{< /prestation >}}
+    </div>
     <div class="tab-pane fade" id="gestion-informatique" role="tabpanel" aria-labelledby="gestion-informatique-tab">
 {{< prestation nom="Gestion informatique" >}}
-<p class="lead text-center">Cette prestation consiste à nous confier directement la gestion de certaines tâches organisationnelles</p>
+<p class="lead text-center">Vous nous confiez la gestion de certaines tâches organisationnelles</p>
 
 ---
 
 Les tâches envisageables sont aussi variées que :
 - edition de contenu web
-- création/refonte de site Internet
 - prise de notes en réunion et diffusion du compte-rendu
 - gestion de newsletter
 - animation des réseaux sociaux
