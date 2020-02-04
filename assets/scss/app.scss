@@ -156,19 +156,15 @@ dd {
   }
 }
 
-
-.card-deck {
-  margin-bottom: 30px;
-}
-
+.card + .card,
 .card-deck + .card-deck {
-  margin-top: -30px;
+  margin-top: 2em;
 }
 
-@media (min-width: 768px) {
-  .card-deck + .card-deck {
-      margin-top: initial;
-    }
+@include media-breakpoint-up(sm) {
+  .card + .card{
+    margin-top: initial;
+  }
 }
 
 a[title].abbr , a[data-original-title].abbr {
