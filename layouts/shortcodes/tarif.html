@@ -1,17 +1,14 @@
-<div class="table-responsive">
-  <table class="table">
-    <thead>
-      <tr>
-        <td>{{ .Inner | markdownify }}</td>
-        <td class="text-right"><span class="badge badge-success">{{ .Get "prix" }} € / h</span></td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <p><small class="text-muted">pour les organisations alliées d'<a href="https://algosphere.org/fr/">Algosphère</a></small></p></td>
-        <td class="text-right"><span class="badge badge-success">{{ .Get "prix-algo" }} € / h</span></td>
-      </tr>
-    </tbody>
-  </table>
+<div class="tarif">
+  <div class="card text-center shadow-sm">
+    <div class="card-header">
+      <h4>{{ .Get "titre" }}</h4>
+    </div>
+    <div class="card-body">
+      <h1 class="card-title">{{ .Get "prix" }} € <small class="text-muted">/ h</small></h1>
+      <div class="tarif-description">
+        {{ .Inner | markdownify }}
+      </div>
+      {{ partial "contact-button" . }}
+    </div>
+  </div>
 </div>

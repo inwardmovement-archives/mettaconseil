@@ -9,7 +9,7 @@ toc: true
 Victor Massé
 735 avenue du général de Gaulle
 38290 La Verpillière
-contact@mettaconseil.fr
+contact@mettaconseil.com
 06.69.05.29.65
 `SIREN 850426776`
 `SIRET 85042677600017`
@@ -27,16 +27,9 @@ Ce site Internet n'utilise pas de cookies.
 
 # Conditions Générales de Vente
 ## Prix et paiement
-- Prix d'une prestation de `60 minutes` de conseil en organisation et système d'information : `80,00 € HT` (*TVA non applicable, art. 293 B du CGI*).
-
-- Prix d'une prestation de `60 minutes` de gestion informatique : `50,00 € HT` (*TVA non applicable, art. 293 B du CGI*).
-
-`30 minutes` est le minimum de temps de prestation facturé par prestation.
+- Prix d'une prestation de `60 minutes` : `50,00 € H.T.` (*TVA non applicable, art. 293 B du CGI*).
 
 Une fois la prestation réalisée, le client reçoit la facture à régler par virement bancaire dans les 30 jours.
-
-## Tarif préférentiel
-Une réduction de `50 %` est appliquée sur le montant global de la facture, quelle que soit la prestation réalisée, pour les organisations alliées d'[Algosphère](https://algosphere.org/fr/).
 
 ## Retard de paiement
 - Taux journalier des pénalités de retard exigibles en cas de non-paiement à la date de règlement : `10 %`

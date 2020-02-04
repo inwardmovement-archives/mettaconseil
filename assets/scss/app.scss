@@ -416,6 +416,37 @@ main.container h1:first-child {
   list-style-type: none;
 }
 
+
+/************************************************************
+  TARIF
+************************************************************/
+.tarif {
+  display: flex;
+  justify-content: center;
+
+  .card {
+    margin-bottom: 2.5em;
+    min-width: 100%;
+
+    h4 {
+      margin-bottom: 0;
+    }
+
+    .tarif-description {
+      margin-top: 1em;
+      margin-bottom: 1.5em;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .tarif {
+    .card {
+      min-width: 50%;
+    }
+  }
+}
+
 /************************************************************
   ARTICLE
 ************************************************************/
