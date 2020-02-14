@@ -4,7 +4,7 @@
  - Node.js `12.14.0`
 
 ## CI/CD
-![ci-cd-master](https://github.com/inwardmovement/mettaconseilpro/workflows/ci-cd-master/badge.svg?branch=master)
+![ci-cd-master](https://github.com/inwardmovement/mettaconseil/workflows/ci-cd-master/badge.svg?branch=master)
 
 ## To develop locally
 - Install the corresponding version of [Hugo](https://gohugo.io/)
