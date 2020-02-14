@@ -51,7 +51,8 @@ Technologies utilisées :
 - [JAMstack](https://jamstack.org/) : c'est une nouvelle façon de créer des sites Web et applications offrant de meilleures performances, une sécurité accrue, une évolutivité à cout réduit et une meilleure expérience de développement.
 - [Hugo](https://gohugo.io/) : générateur de site statique.
 - [Bootstrap](https://getbootstrap.com/) : framework CSS.
-- [Firebase](https://firebase.google.com/) : base de données.
+- [Lunr](https://lunrjs.com/) : moteur de recherche.
+- [Fauna](https://fauna.com/) : base de données.
 - [Netlify](https://www.netlify.com/) : hébergement du site.
 - [Git](https://git-scm.com/) : gestion de versions.
 - [GitHub](https://github.com/) : hébergement du code source, intégration et déploiement continus.
