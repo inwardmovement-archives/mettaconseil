@@ -11,7 +11,7 @@ aliases: ["/tarifs"]
 {{< /tarif >}}
 
 {{< alert info >}}
-  Les prestations s'appuient sur les versions gratuites de services tiers.
+  La prestation *Développement web* s'appuie sur les versions gratuites des services tiers utilisés (voir [Prestations](/prestations/#developpement-web)).
   Suivant l'évolution de votre structure, la souscription aux plans payants devra être envisagée.
 {{< /alert >}}
 

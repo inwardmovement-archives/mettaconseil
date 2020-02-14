@@ -47,15 +47,45 @@ Le système proposé s'appuie sur les principes organisationnels suivants :
 
 ---
 
-Technologies utilisées :
-- [JAMstack](https://jamstack.org/) : c'est une nouvelle façon de créer des sites Web et applications offrant de meilleures performances, une sécurité accrue, une évolutivité à cout réduit et une meilleure expérience de développement.
-- [Hugo](https://gohugo.io/) : générateur de site statique.
-- [Bootstrap](https://getbootstrap.com/) : framework CSS.
-- [Lunr](https://lunrjs.com/) : moteur de recherche.
-- [Fauna](https://fauna.com/) : base de données.
-- [Netlify](https://www.netlify.com/) : hébergement du site.
-- [Git](https://git-scm.com/) : gestion de versions.
-- [GitHub](https://github.com/) : hébergement du code source, intégration et déploiement continus.
+{{< alert "success" >}}
+Nous travaillons avec l'architecture [JAMstack](https://jamstack.org/) : c'est une nouvelle façon de créer des sites Web et applications offrant de meilleures performances, une sécurité accrue, une évolutivité à cout réduit et une meilleure expérience de développement.
+{{< /alert >}}
+
+#### Technologies utilisées
+<div class="table-responsive">
+  <table class="table table-sm table-striped">
+    <tbody>
+{{< table/tr >}}
+  {{< table/td row="true" >}}[Hugo](https://gohugo.io/){{< /table/td >}}
+  {{< table/td >}}Générateur de site statique{{< /table/td >}}
+{{< /table/tr >}}
+{{< table/tr >}}
+  {{< table/td row="true" >}}[Bootstrap](https://getbootstrap.com/){{< /table/td >}}
+  {{< table/td >}}Framework CSS{{< /table/td >}}
+{{< /table/tr >}}
+{{< table/tr >}}
+  {{< table/td row="true" >}}[Lunr](https://lunrjs.com/){{< /table/td >}}
+  {{< table/td >}}Moteur de recherche{{< /table/td >}}
+{{< /table/tr >}}
+{{< table/tr >}}
+  {{< table/td row="true" >}}[Fauna](https://fauna.com/){{< /table/td >}}
+  {{< table/td >}}Base de données{{< /table/td >}}
+{{< /table/tr >}}
+{{< table/tr >}}
+  {{< table/td row="true" >}}[Netlify](https://www.netlify.com/){{< /table/td >}}
+  {{< table/td >}}Hébergement du site{{< /table/td >}}
+{{< /table/tr >}}
+{{< table/tr >}}
+  {{< table/td row="true" >}}[Git](https://git-scm.com/){{< /table/td >}}
+  {{< table/td >}}Gestion de versions{{< /table/td >}}
+{{< /table/tr >}}
+{{< table/tr >}}
+  {{< table/td row="true" >}}[GitHub](https://github.com/){{< /table/td >}}
+  {{< table/td >}}Hébergement du code source, intégration et déploiement continus{{< /table/td >}}
+{{< /table/tr >}}
+  </tbody>
+  </table>
+</div>
 
 {{< /prestation >}}
     </div>
