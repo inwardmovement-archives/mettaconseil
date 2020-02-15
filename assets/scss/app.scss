@@ -3,6 +3,10 @@
 ************************************************************/
 $cyan: #17a2b8;
 $info: $cyan;
+// $primary: #3490dc;
+$theme-colors: (
+  "primary-alt": #3490dc
+);
 
 $nav-pills-link-active-bg: $info;
 
@@ -357,6 +361,10 @@ main.container {
     text-decoration: underline solid rgba(0,0,0,.1);
     text-decoration-thickness: .2em;
   }
+
+  .navbar-nav {
+    align-items: center;
+  }
 }
 
 .navbar .container {
@@ -388,17 +396,13 @@ main.container {
   }
 }
 
+.home-link {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .home-link .bi {
-  font-size: 1.5em;
-}
-
-.home-link:hover,
-.home-link:focus {
-  color: darken($color: #db8888, $amount: 15);
-}
-
-.home-link.active {
-  color: darken($color: #db8888, $amount: 15);
+  font-size: 1.8em;
 }
 
 /************************************************************
