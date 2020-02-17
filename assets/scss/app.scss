@@ -361,10 +361,6 @@ main.container {
     text-decoration: underline solid rgba(0,0,0,.1);
     text-decoration-thickness: .2em;
   }
-
-  .navbar-nav {
-    align-items: center;
-  }
 }
 
 .navbar .container {
@@ -383,6 +379,10 @@ main.container {
 }
 
 @media (min-width: 768px) {
+  .navbar-nav {
+    align-items: center;
+  }
+
   .navbar-collapse {
     margin-top: initial;
   }
