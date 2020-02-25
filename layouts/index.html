@@ -6,6 +6,29 @@
     <hr class="w-50"><br>
     </header>
     {{ .Content }}
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">{{ (resources.Get "icons/graph-up.svg").Content | safeHTML }} Progressisme</h3>
+          <p>Les organisations progressistes œuvrent au progrès social <strong><em>en accordant la priorité éthique à l'allègement de la souffrance</em></strong>.</p>
+          <p>Elles ont de grandes ambitions mais de faibles ressources, comptant parfois exclusivement sur le bénévolat.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">{{ (resources.Get "icons/trophy.svg").Content | safeHTML }} Enjeu</h3>
+          <p>Il est critique pour les organisations progressistes de rentabiliser au maximum leurs ressources : <strong><em>le succès de leur mission est fortement conditionné à leur organisation</em></strong>.</p>
+          <p>Elles gaspillent trop souvent leurs ressources (temps, compétences, argent) dans leur propre fonctionnement, générant au passage des effets contre-productifs.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title"><img src="{{ (resources.Get "/img/logo_metta_1000.png" ).RelPermalink }}" width="36" class="" alt="logo">L'offre</h3>
+          <p>Metta Conseil met son savoir-faire à disposition des organisations progressistes pour les aider à <strong><em>s'organiser efficacement et à moindre cout</em></strong>.</p>
+          <p>L'organisation proposée est adaptative et simple à mettre en place et à faire fonctionner. Elle est gratuite pour peu que quelques bénévoles soient volontaires pour s'en occuper.</p>
+        </div>
+      </div>
+    </div>
   </main>
   {{ partial "top-btn" . }}
 {{ end }}
