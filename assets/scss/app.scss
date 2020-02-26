@@ -227,21 +227,6 @@ main.container {
   }
 
 /************************************************************
-  ICONS
-************************************************************/
-svg {
-  vertical-align: bottom;
-
-  &.bi {
-    font-size: 1.5em;
-
-    &.bi-box-arrow-up-right {
-      margin-left: .1em;
-    }
-  }
-}
-
-/************************************************************
   HEADER
 ************************************************************/
 .header {
@@ -422,9 +407,17 @@ main.container h1:first-child {
 /************************************************************
 ICONS
 ************************************************************/
-svg.bi {
-  font-size: 1.4em;
+svg {
   vertical-align: bottom;
+
+  &.bi {
+    font-size: 1.4em;
+    vertical-align: bottom;
+
+    &.bi-box-arrow-up-right {
+      margin-left: .1em;
+    }
+  }
 }
 
 h1 a::after,
