@@ -3,7 +3,6 @@
 ************************************************************/
 $cyan: #17a2b8;
 $info: $cyan;
-// $primary: #3490dc;
 $theme-colors: (
   "primary-alt": #3490dc
 );
@@ -460,6 +459,27 @@ h2 a::after {
   list-style-type: none;
 }
 
+/************************************************************
+  HOME
+************************************************************/
+.home {
+  .card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  svg.bi {
+    font-size: 1.6em;
+    color: theme-color(primary-alt);
+  }
+
+
+}
 
 /************************************************************
   TARIF
