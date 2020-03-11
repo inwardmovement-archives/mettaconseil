@@ -56,31 +56,31 @@ Nous travaillons avec l'architecture [JAMstack](https://jamstack.org/) : c'est u
   <table class="table table-sm table-striped">
     <tbody>
 {{< table/tr >}}
-  {{< table/td row="true" >}}[Hugo](https://gohugo.io/){{< /table/td >}}
+  {{< table/td >}}[Hugo](https://gohugo.io/){{< /table/td >}}
   {{< table/td >}}Générateur de site statique{{< /table/td >}}
 {{< /table/tr >}}
 {{< table/tr >}}
-  {{< table/td row="true" >}}[Bootstrap](https://getbootstrap.com/){{< /table/td >}}
+  {{< table/td >}}[Bootstrap](https://getbootstrap.com/){{< /table/td >}}
   {{< table/td >}}Framework CSS{{< /table/td >}}
 {{< /table/tr >}}
 {{< table/tr >}}
-  {{< table/td row="true" >}}[Lunr](https://lunrjs.com/){{< /table/td >}}
+  {{< table/td >}}[Lunr](https://lunrjs.com/){{< /table/td >}}
   {{< table/td >}}Moteur de recherche{{< /table/td >}}
 {{< /table/tr >}}
 {{< table/tr >}}
-  {{< table/td row="true" >}}[Fauna](https://fauna.com/){{< /table/td >}}
+  {{< table/td >}}[Fauna](https://fauna.com/){{< /table/td >}}
   {{< table/td >}}Base de données{{< /table/td >}}
 {{< /table/tr >}}
 {{< table/tr >}}
-  {{< table/td row="true" >}}[Netlify](https://www.netlify.com/){{< /table/td >}}
+  {{< table/td >}}[Netlify](https://www.netlify.com/){{< /table/td >}}
   {{< table/td >}}Hébergement du site{{< /table/td >}}
 {{< /table/tr >}}
 {{< table/tr >}}
-  {{< table/td row="true" >}}[Git](https://git-scm.com/){{< /table/td >}}
+  {{< table/td >}}[Git](https://git-scm.com/){{< /table/td >}}
   {{< table/td >}}Gestion de versions{{< /table/td >}}
 {{< /table/tr >}}
 {{< table/tr >}}
-  {{< table/td row="true" >}}[GitHub](https://github.com/){{< /table/td >}}
+  {{< table/td >}}[GitHub](https://github.com/){{< /table/td >}}
   {{< table/td >}}Hébergement du code source, intégration et déploiement continus{{< /table/td >}}
 {{< /table/tr >}}
   </tbody>
