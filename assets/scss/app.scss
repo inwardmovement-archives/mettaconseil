@@ -406,22 +406,19 @@ main.container h1:first-child {
 /************************************************************
 ICONS
 ************************************************************/
-svg {
-  vertical-align: bottom;
+svg.bi {
+  font-size: 1.1em;
+  vertical-align: text-bottom;
+  width: 1.25em;
 
-  &.bi {
-    font-size: 1.4em;
-    vertical-align: bottom;
-
-    &.bi-box-arrow-up-right {
-      margin-left: .1em;
-    }
+  &.bi-box-arrow-up-right {
+    vertical-align: sub;
+    margin-left: .1em;
   }
 }
 
-h1 a::after,
-h2 a::after {
-  vertical-align: middle !important;
+.btn svg.bi {
+  vertical-align: sub;
 }
 
 /************************************************************
