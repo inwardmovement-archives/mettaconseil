@@ -329,12 +329,19 @@ main.container {
 }
 
 .home-link {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: .5em;
+  padding-bottom: .25em;
 }
 
 .home-link .bi {
   font-size: 1.8em;
+}
+
+@media (min-width: 768px) {
+  .home-link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 /************************************************************
