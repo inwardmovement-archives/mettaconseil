@@ -4,7 +4,10 @@
       <h4>{{ .Get "titre" }}</h4>
     </div>
     <div class="card-body">
-      <h1 class="card-title">{{ .Get "prix" }} € <small class="text-muted">/ h</small></h1>
+      <h1 class="card-title">
+        {{ with .Get "prixH" }}{{ . }} € <small class="text-muted">/ h</small>{{ end }}
+        {{ with .Get "prix" }}{{ . }} €{{ end }}
+      </h1>
       <div class="tarif-description">
         {{ .Inner | markdownify }}
       </div>

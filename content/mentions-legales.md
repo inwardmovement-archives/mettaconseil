@@ -27,8 +27,10 @@ Ce site Internet n'utilise pas de cookies.
 
 # Conditions Générales de Vente
 ## Prix et paiement
-- Prix d'une prestation de `60 minutes` : `50,00 € H.T.` (*TVA non applicable, art. 293 B du CGI*).
+- Prix d'une prestation de `60 minutes` : `50,00 € H.T.`
+- Prix d'une prestation de `Développement web` : `2 500,00 € H.T.`
 
+(*TVA non applicable, art. 293 B du CGI*)
 Une fois la prestation réalisée, le client reçoit la facture à régler par virement bancaire dans les 30 jours.
 
 ## Retard de paiement

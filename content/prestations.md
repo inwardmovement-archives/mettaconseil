@@ -8,7 +8,7 @@ layout: prestations
   <div class="nav flex-column nav-pills" id="prestations-tab" role="tablist" aria-orientation="vertical">
     <a class="nav-link active" id="organisation-si-tab" data-toggle="pill" href="#organisation-si" role="tab" aria-controls="organisation-si" aria-selected="true">Organisation et SI</a>
     <a class="nav-link" id="developpement-web-tab" data-toggle="pill" href="#developpement-web" role="tab" aria-controls="developpement-web" aria-selected="false">Développement web</a>
-    <a class="nav-link" id="gestion-informatique-tab" data-toggle="pill" href="#gestion-informatique" role="tab" aria-controls="gestion-informatique" aria-selected="false">Gestion informatique</a>
+    <a class="nav-link" id="gestion-administrative-tab" data-toggle="pill" href="#gestion-administrative" role="tab" aria-controls="gestion-administrative" aria-selected="false">Gestion administrative</a>
   </div>
   <div class="tab-content" id="prestations-tabContent">
     <div class="tab-pane fade show active" id="organisation-si" role="tabpanel" aria-labelledby="organisation-si-tab">
@@ -89,9 +89,9 @@ Nous travaillons avec l'architecture [JAMstack](https://jamstack.org/) : c'est u
 
 {{< /prestation >}}
     </div>
-    <div class="tab-pane fade" id="gestion-informatique" role="tabpanel" aria-labelledby="gestion-informatique-tab">
-{{< prestation nom="Gestion informatique" >}}
-<p class="lead text-center">Vous nous confiez la gestion de certaines tâches organisationnelles</p>
+    <div class="tab-pane fade" id="gestion-administrative" role="tabpanel" aria-labelledby="gestion-administrative-tab">
+{{< prestation nom="Gestion administrative" >}}
+<p class="lead text-center">Vous nous confiez la gestion de votre organisation</p>
 
 ---
 

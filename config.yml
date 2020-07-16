@@ -40,22 +40,26 @@ markup:
 footnoteReturnLinkContents: "↑"
 menu:
   main:
+    - Name: "Accueil"
+      URL: "/"
+      Identifier: "accueil"
+      weight: 1
     - Name: "Prestations"
       URL: "/prestations/"
       Identifier: "prestations"
-      weight: 1
-    - Name: "Tarif"
-      URL: "/tarif/"
-      Identifier: "tarif"
       weight: 2
+    - Name: "Tarifs"
+      URL: "/tarifs/"
+      Identifier: "tarifs"
+      weight: 3
     - Name: "Clients"
       URL: "/clients/"
       Identifier: "clients"
-      weight: 3
+      weight: 4
     - Name: "À propos"
       URL: "/a-propos/"
       Identifier: "a-propos"
-      weight: 4
+      weight: 5
   footer:
     - Name: "Mentions légales"
       URL: "/mentions-legales/"

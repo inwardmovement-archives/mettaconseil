@@ -6,7 +6,7 @@ $info: $cyan;
 $theme-colors: (
   "primary-alt": #3490dc
 );
-
+$primary-alt: map-get($map: $theme-colors, $key: primary-alt);
 $nav-pills-link-active-bg: $info;
 
 .nav-pills .nav-link {
@@ -183,14 +183,35 @@ a[title].abbr , a[data-original-title].abbr {
 }
 
 /************************************************************
-  CONTAINER
+  LAYOUT
 ************************************************************/
-main.container {
-  max-width: 1140px;
+.nav-main .container-fluid,
+nav[aria-label="breadcrumb"] .container-fluid {
+  max-width: 100%;
 }
 
-.header .container-fluid {
-  max-width: 1140px;
+.nav-footer .container-fluid {
+  max-width: map-get($container-max-widths, "xl");
+}
+
+.main .container-fluid {
+  max-width: map-get($container-max-widths, "xl");
+}
+
+.main {
+  flex-grow: 1;
+  margin-top: 3.5rem;
+  margin-bottom: 2.5em;
+}
+
+@include media-breakpoint-up(lg) {
+  .main {
+    margin-bottom: 5em;
+  }
+}
+
+.footnotes {
+  margin-top: 3.5em;
 }
 
 /************************************************************
@@ -226,30 +247,26 @@ main.container {
   }
 
 /************************************************************
-  HEADER
+  NAV
 ************************************************************/
-.header {
-  display: none;
-  background-color: $white;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-
+.nav-main {
   .container-fluid {
+    align-items: stretch;
+  }
+
+  .navbar-brand {
     display: flex;
-    justify-content: space-between;
+    color: $body-color;
+    padding-top: 0;
+    padding-bottom: 0;
 
-    .header-brand {
+    .brand-image-link {
       display: flex;
-      color: $body-color;
-
-      .brand-image-link {
-        display: flex;
-        align-items: center;
-      }
+      align-items: center;
 
       .brand-image {
+        width: 30px;
+        height: 29px;
         margin-right: 1rem;
       }
 
@@ -257,10 +274,11 @@ main.container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        color: #88b1db;
         font-family: 'Comfortaa', sans-serif;
 
         .brand-title {
+          color: #88b1db;
+          font-size: 1em;
           margin-bottom: .2em;
           text-decoration-line: underline;
           text-decoration-style: solid;
@@ -269,80 +287,193 @@ main.container {
         }
 
         .brand-subtitle {
-          margin: 0;
+          color: $gray-500;
+          display: none;
         }
       }
     }
   }
-}
-
-@include media-breakpoint-up(md) {
-  .header {
-    display: block;
-  }
-}
-
-/************************************************************
-  NAV
-************************************************************/
-.navbar {
-  margin-bottom: 56px;
-
-  .navbar-brand {
-    color: #88b1db !important;
-    text-decoration: underline solid rgba(0,0,0,.1);
-    text-decoration-thickness: .2em;
-  }
-}
-
-.navbar .container {
-  max-width: 1108px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.navbar-toggler {
-  margin-right: 0 !important;
-}
-
-.navbar .btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-@media (min-width: 768px) {
-  .navbar-nav {
-    align-items: center;
-  }
 
   .navbar-collapse {
-    margin-top: initial;
+    justify-content: space-between;
+    flex-grow: 0;
+    align-items: stretch;
+
+    svg.bi {
+      width: initial;
+      margin-left: .2em;
+    }
+
+    i.material-icons {
+      margin-right: .2em;
+    }
+
+    .nav-left {
+      flex-grow: 1;
+      flex-wrap: wrap;
+
+      a,
+      .dropdown a {
+        &.active {
+          color: rgba(0, 0, 0, 0.7);
+          font-weight: 600;
+          text-decoration-line: underline;
+          text-decoration-style: solid;
+          text-decoration-color: rgba(0, 0, 0, 0.1);
+          text-decoration-thickness: .2em;
+        }
+
+        &.dropdown-item:active,
+        &.dropdown-item.active {
+          color: #fff;
+          background-color: #88b1db;
+          font-weight: initial;
+          text-decoration: none;
+        }
+      }
+    }
   }
 
-  .navbar-brand {
-    display: none;
+  .nav-right {
+    flex-shrink: 0;
+    margin-top: .5rem;
+
+    > * + * {
+      margin-top: .5rem;
+    }
+
+    svg.bi {
+      margin-top: .15em;
+    }
+
+    i.material-icons {
+      margin-top: .15em;
+    }
   }
 
-  .navbar .btn {
-    margin: initial;
+  .meta {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+
+    > * + * {
+      margin-top: .5rem;
+    }
   }
 }
 
-.home-link {
-  padding-top: .5em;
-  padding-bottom: .25em;
-}
+@include media-breakpoint-up(xl) {
+  .nav-main {
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
 
-.home-link .bi {
-  font-size: 1.8em;
-}
+    .container-fluid {
+      padding: 0;
+    }
 
-@media (min-width: 768px) {
-  .home-link {
-    padding-top: 0;
-    padding-bottom: 0;
+    .navbar-brand {
+      .brand-image-link {
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+
+        .brand-image {
+          width: 68.8px;
+          height: 68.8px;
+          margin-right: 1rem;
+        }
+
+        .brand-text {
+          .brand-title {
+            font-size: 2rem;
+          }
+
+          .brand-subtitle {
+            display: flex;
+            font-size: 1.25rem;
+          }
+        }
+      }
+    }
+
+    .navbar-collapse {
+      .nav-item {
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-link {
+        font-size: 1.05em;
+        padding-left: .75em !important;
+        padding-right: .75em !important;
+      }
+
+      .btn {
+        border-radius: 0;
+      }
+
+      .nav-left {
+      // à refactoriser
+        .nav-link:hover:not(.active) {
+          color: rgba(0, 0, 0, 0.5);
+        }
+
+        .dropdown.show .nav-link.active {
+          color: rgba(0, 0, 0, 0.7);
+        }
+
+        .dropdown.show .nav-link:not(.active) {
+          color: rgba(0, 0, 0, 0.5);
+        }
+
+        a,
+        .dropdown a {
+          &:hover,
+          &:focus {
+            background-color: $light;
+            color: rgba(0, 0, 0, 0.5);
+          }
+
+          &.active {
+            color: rgba(0, 0, 0, 0.7);
+            font-weight: 600;
+            text-decoration: none;
+            background-color: $light;
+          }
+        }
+
+        .dropdown-menu a:hover,
+        .dropdown-menu a:focus {
+          color: rgba(0, 0, 0, 0.9);
+        }
+      }
+
+      .nav-right {
+        margin-left: 1em;
+        margin-top: initial;
+      }
+
+      .nav-right > *,
+      .meta > * {
+        margin-top: initial;
+      }
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+    }
+
+    .dropdown {
+      display: flex;
+      align-items: stretch;
+    }
   }
 }
+
 
 /************************************************************
   HEADINGS
@@ -422,6 +553,10 @@ svg.bi {
     vertical-align: sub;
     margin-left: .1em;
   }
+
+  &.bi-envelope {
+    margin-right: .25em;
+  }
 }
 
 .btn svg.bi {
@@ -490,6 +625,7 @@ svg.bi {
 .tarif {
   display: flex;
   justify-content: center;
+  width: 100%;
 
   .card {
     margin-bottom: 2.5em;
@@ -507,10 +643,16 @@ svg.bi {
 }
 
 @media (min-width: 768px) {
+  .tarifs {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+
   .tarif {
-    .card {
-      min-width: 50%;
-    }
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 

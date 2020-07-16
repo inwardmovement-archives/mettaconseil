@@ -1,13 +1,15 @@
-<nav id="footer" class="navbar navbar-expand navbar-light bg-light nav-footer" aria-label="Footer navigation">
-  <div class="container">
-    <div class="collapse navbar-collapse">
-      <div class="navbar-nav mx-auto">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.footer }}
-            <a class="nav-item nav-link" href="{{ .URL }}">{{ .Name }}</a>
-            <p class="dot d-none d-md-block">•</p>
-        {{ end }}
+<footer>
+  <nav id="footer" class="navbar navbar-expand navbar-light bg-light nav-footer" aria-label="Footer navigation">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse">
+        <div class="navbar-nav mx-auto">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.footer }}
+              <a class="nav-item nav-link" href="{{ .URL }}">{{ .Name }}</a>
+              <p class="dot d-none d-md-block">•</p>
+          {{ end }}
+        </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</footer>

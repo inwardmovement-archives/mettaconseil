@@ -1,14 +1,35 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light" aria-label="Main navigation">
-  <div class="container">
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ (resources.Get "/img/logo_metta_1000.png" ).RelPermalink }}" width="30" class="d-inline-block align-top" style="margin-right: 8px;" alt="logo">{{ .Site.Title }}</a>
+<nav class="nav-main navbar navbar-expand-xl navbar-light bg-white shadow-sm" aria-label="Main navigation">
+  <div class="container-fluid">
+    <div class="navbar-brand">
+      <a class="brand-image-link" href="{{ "/" | relLangURL }}">
+        <img class="brand-image" src="{{ (resources.Get "/img/logo_metta_1000.png" ).RelPermalink }}" width="30" alt="logo">
+        <div class="brand-text">
+          <h2 class="brand-title">{{ .Site.Title }}</h2>
+          <h5 class="brand-subtitle">{{ .Site.Params.description }}</h5>
+        </div>
+      </a>
+    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbar-collapse">
-      <div class="navbar-nav mr-auto">
-        <a class="nav-item nav-link home-link{{ if eq .RelPermalink ("/" | relLangURL | string) }} active{{ end }}" href="{{ "/" | relLangURL }}">{{ (resources.Get "icons/house-fill.svg").Content | safeHTML }}<span class="sr-only">Accueil</span></a>
+      <div class="navbar-nav nav-left">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-          {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq .Identifier $.Section) }}
-            <a class="nav-item nav-link{{ if $isCurrent }} active{{ end }}" href="{{ .URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+        {{ $URL := .URL | relLangURL }}
+        {{ $isCurrent := or (eq $URL $currentPage.RelPermalink) (eq .Identifier $.Section) }}
+        {{ if .HasChildren }}
+          <div class="dropdown">
+            <a class="nav-item nav-link dropdown-toggle{{ if $isCurrent }} active{{ end }}" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                {{ range .Children }}
+                  {{ $URL := .URL | relLangURL }}
+                  {{ $isCurrent := eq $URL $currentPage.RelPermalink }}
+                  <a class="dropdown-item{{ if $isCurrent }} active{{ end }}" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+                {{ end }}
+              </div>
+          </div>
+        {{ else }}
+          <a class="nav-item nav-link{{ if $isCurrent }} active{{ end }}" href="{{ $URL }}">{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(current)</span>{{ end }}</a>
+        {{ end }}
         {{ end }}
       </div>
       <div class="nav-right navbar-nav">
