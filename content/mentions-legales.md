@@ -6,11 +6,10 @@ toc: true
 
 # Mentions générales
 ## Entrepreneur, directeur de publication
-Victor Massé
-735 avenue du général de Gaulle
-38290 La Verpillière
-contact@mettaconseil.com
-06.69.05.29.65
+{{< alert "info" >}}
+Entreprise fermée
+{{< /alert >}}
+
 `SIREN 850426776`
 `SIRET 85042677600017`
 `APE 9609Z`
