@@ -1,8 +1,8 @@
 {
   "name": "mettaconseil",
   "version": "1.0.0",
-  "description": "Conseil en développement personnel",
-  "main": "gulpfile.js",
+  "description": "",
+  "main": "",
   "scripts": {
     "start": "hugo server -DEF --i18n-warnings",
     "build": "hugo --i18n-warnings && gulp",

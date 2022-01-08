@@ -6,9 +6,7 @@ toc: true
 
 # Mentions générales
 ## Entrepreneur, directeur de publication
-{{< alert "info" >}}
 Entreprise fermée
-{{< /alert >}}
 
 `SIREN 850426776`
 `SIRET 85042677600017`
